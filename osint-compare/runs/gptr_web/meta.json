@@ -1,0 +1,23 @@
+{
+ "mode": "web",
+ "wall_seconds": 9.2,
+ "costs_usd": 0.0005268,
+ "sources": [
+  "https://power.larc.nasa.gov/",
+  "https://www.earthdata.nasa.gov/data/projects/merra-2",
+  "https://gmao.gsfc.nasa.gov/reanalysis/",
+  "https://science.nasa.gov/earth/data/climate-data/",
+  "https://www.earthdata.nasa.gov/",
+  "https://rcmes.jpl.nasa.gov/",
+  "https://psl.noaa.gov/products/analysis/",
+  "https://climatedataguide.ucar.edu/climate-tools",
+  "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/data-access_merra-2/",
+  "https://power.larc.nasa.gov/docs/methodology/data/sources_meteorology/"
+ ],
+ "models": {
+  "FAST_LLM": "openai:gpt-4.1-mini",
+  "SMART_LLM": "openai:gpt-4.1-mini",
+  "STRATEGIC_LLM": "openai:gpt-4.1-mini",
+  "EMBEDDING": "openai:text-embedding-3-small"
+ }
+}

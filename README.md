@@ -59,8 +59,14 @@ Each raw POWER response is stored with its request URL and SHA-256; retrieval ti
 - 72 tests at p < 0.05: about 3–4 significant results are expected by chance.
 - GPCP's 2.5° cells mean small regions rest on 1–4 cells.
 - Snow depth is marked not applicable where its long-term mean is under 1 cm.
-- OpenPlanter is used for its wiki format and graph parser; its LLM agent (needs API keys) was not run.
-  The OSINT tool comparison (OpenPlanter vs Flowsint vs GPT Researcher–OpenAleph) is proposed, not done.
+- OpenPlanter provides the wiki format and graph parser (37/37 intended edges recovered, 0 decoy edges). Its LLM agent
+  was also run (gpt-4.1-mini) on a fixed question over the same wiki and ledger, together with Flowsint (graph import +
+  AI chat) and GPT Researcher, both alone and on top of a local OpenAleph ingest/search stack. Every numeric claim was
+  checked against results.json (see osint-compare/REPORT.md). Two findings: (1) as shipped, every tool silently truncated
+  its input. OpenPlanter invented numbers for rows it never read (9 wrong claims), and Flowsint and GPT Researcher covered
+  only 4 and 1 of the 8 robust trends. (2) With one setting (OPENPLANTER_MAX_OBS_CHARS=60000), OpenPlanter named all 8
+  robust trends and the Delhi contradiction with 1 minor numeric error. This is a single-run tool comparison, not a
+  scientific result. The evidence ledger remains the source of truth.
 
 ## Important snapshot, disclosure and release notes (audit supplement)
 

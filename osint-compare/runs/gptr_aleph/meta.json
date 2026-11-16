@@ -1,0 +1,12 @@
+{
+ "mode": "aleph",
+ "wall_seconds": 18.3,
+ "costs_usd": 0.004859200000000001,
+ "sources": [],
+ "models": {
+  "FAST_LLM": "openai:gpt-4.1-mini",
+  "SMART_LLM": "openai:gpt-4.1-mini",
+  "STRATEGIC_LLM": "openai:gpt-4.1-mini",
+  "EMBEDDING": "openai:text-embedding-3-small"
+ }
+}

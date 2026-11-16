@@ -1,0 +1,4678 @@
+{
+ "collection_id": "3",
+ "uploaded": [
+  [
+   "inputs/wiki/decoys/merra2-aerosol.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/amazon-cloud_amt.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/amazon-gwetroot.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/amazon-prectotcorr.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/amazon-t2m.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/california-prectotcorr.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/california-t2m.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/delhi-allsky_sfc_sw_dwn.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/delhi-prectotcorr.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/delhi-rh2m.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/delhi-t2m.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/murray-prectotcorr.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/murray-t2m.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/sahel-gwetroot.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/sahel-prectotcorr.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/sahel-t2m.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/sfbay-prectotcorr.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/sfbay-t2m.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/svalbard-prectotcorr.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/svalbard-snodp.md",
+   201
+  ],
+  [
+   "inputs/wiki/findings/svalbard-t2m.md",
+   201
+  ],
+  [
+   "inputs/wiki/index.md",
+   201
+  ],
+  [
+   "inputs/wiki/models/power-merra2.md",
+   201
+  ],
+  [
+   "inputs/wiki/satellites/gpcp.md",
+   201
+  ],
+  [
+   "inputs/wiki/satellites/power-ceres.md",
+   201
+  ],
+  [
+   "inputs/wiki/stations/gistemp.md",
+   201
+  ],
+  [
+   "inputs/ledger.md",
+   201
+  ],
+  [
+   "inputs/ledger.csv",
+   201
+  ],
+  [
+   "inputs/results.json",
+   201
+  ],
+  [
+   "inputs/evidence_graph.json",
+   201
+  ]
+ ],
+ "ingest_wall_seconds": 20.8,
+ "final_status": {
+  "todo": 30,
+  "doing": 0,
+  "succeeded": 60,
+  "failed": 0,
+  "aborted": 0,
+  "aborting": 0,
+  "cancelled": 0,
+  "min_ts": "2026-11-16T04:30:49.450817Z",
+  "max_ts": "2026-11-16T04:30:54.186450Z",
+  "name": "collection_3",
+  "batches": [
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.450817Z",
+    "max_ts": "2026-11-16T04:30:53.710936Z",
+    "name": "4:04ad0977e7fa4a22bac487829cf8defe",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.795473Z",
+      "max_ts": "2026-11-16T04:30:49.795473Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.795473Z",
+        "max_ts": "2026-11-16T04:30:49.795473Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT20.219752S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT20.219764S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.450817Z",
+      "max_ts": "2026-11-16T04:30:50.016248Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.450817Z",
+        "max_ts": "2026-11-16T04:30:50.016248Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT0.565431S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT0.565431S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.799604Z",
+      "max_ts": "2026-11-16T04:30:53.710936Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.799604Z",
+        "max_ts": "2026-11-16T04:30:53.710936Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT3.911332S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT3.911332S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.260119S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.556957Z",
+    "max_ts": "2026-11-16T04:30:54.157492Z",
+    "name": "4:0767bb44ec9a41ad8f22890278148d4e",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.966845Z",
+      "max_ts": "2026-11-16T04:30:50.966845Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.966845Z",
+        "max_ts": "2026-11-16T04:30:50.966845Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT19.048425S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT19.048429S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.556957Z",
+      "max_ts": "2026-11-16T04:30:51.038607Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.556957Z",
+        "max_ts": "2026-11-16T04:30:51.038607Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT1.48165S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.48165S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.969259Z",
+      "max_ts": "2026-11-16T04:30:54.157492Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.969259Z",
+        "max_ts": "2026-11-16T04:30:54.157492Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT3.188233S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT3.188233S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.600535S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.588536Z",
+    "max_ts": "2026-11-16T04:30:54.186450Z",
+    "name": "4:0a9c391379d744258b2284facf03644f",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.443846Z",
+      "max_ts": "2026-11-16T04:30:51.443846Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.443846Z",
+        "max_ts": "2026-11-16T04:30:51.443846Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT18.571454S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT18.571457S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.588536Z",
+      "max_ts": "2026-11-16T04:30:51.601426Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.588536Z",
+        "max_ts": "2026-11-16T04:30:51.601426Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT2.01289S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.01289S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.446901Z",
+      "max_ts": "2026-11-16T04:30:54.186450Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.446901Z",
+        "max_ts": "2026-11-16T04:30:54.186450Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT2.739549S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.739549S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.597914S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.747630Z",
+    "max_ts": "2026-11-16T04:30:53.929252Z",
+    "name": "4:0b7086cca523474db73726f83dde96fa",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.590409Z",
+      "max_ts": "2026-11-16T04:30:50.590409Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.590409Z",
+        "max_ts": "2026-11-16T04:30:50.590409Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT19.424918S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT19.424921S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.747630Z",
+      "max_ts": "2026-11-16T04:30:50.669464Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.747630Z",
+        "max_ts": "2026-11-16T04:30:50.669464Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT0.921834S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT0.921834S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.594628Z",
+      "max_ts": "2026-11-16T04:30:53.929252Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.594628Z",
+        "max_ts": "2026-11-16T04:30:53.929252Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT3.334624S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT3.334624S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.181622S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.486168Z",
+    "max_ts": "2026-11-16T04:30:54.102556Z",
+    "name": "4:2145f4e4f9cf48e9bc2254cd939a744b",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.054292Z",
+      "max_ts": "2026-11-16T04:30:50.054292Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.054292Z",
+        "max_ts": "2026-11-16T04:30:50.054292Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT19.961062S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT19.961065S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.486168Z",
+      "max_ts": "2026-11-16T04:30:50.205960Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.486168Z",
+        "max_ts": "2026-11-16T04:30:50.205960Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT0.719792S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT0.719792S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.133046Z",
+      "max_ts": "2026-11-16T04:30:54.102556Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.133046Z",
+        "max_ts": "2026-11-16T04:30:54.102556Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT3.96951S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT3.96951S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.616388S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.857089Z",
+    "max_ts": "2026-11-16T04:30:53.833650Z",
+    "name": "4:28a454253cd6468bb753f4ebf323ff3c",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.270749Z",
+      "max_ts": "2026-11-16T04:30:51.270749Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.270749Z",
+        "max_ts": "2026-11-16T04:30:51.270749Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT18.744633S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT18.744635S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.857089Z",
+      "max_ts": "2026-11-16T04:30:51.345476Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.857089Z",
+        "max_ts": "2026-11-16T04:30:51.345476Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT1.488387S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.488387S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.274086Z",
+      "max_ts": "2026-11-16T04:30:53.833650Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.274086Z",
+        "max_ts": "2026-11-16T04:30:53.833650Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT2.559564S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.559564S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT1.5S",
+    "took": "PT3.976561S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.846102Z",
+    "max_ts": "2026-11-16T04:30:53.950951Z",
+    "name": "4:4ad37115ba124f4ab5966aed0c3bc7d7",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.988111Z",
+      "max_ts": "2026-11-16T04:30:51.988111Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.988111Z",
+        "max_ts": "2026-11-16T04:30:51.988111Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT18.027299S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT18.027301S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.846102Z",
+      "max_ts": "2026-11-16T04:30:52.079257Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.846102Z",
+        "max_ts": "2026-11-16T04:30:52.079257Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT2.233155S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.233155S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.991672Z",
+      "max_ts": "2026-11-16T04:30:53.950951Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.991672Z",
+        "max_ts": "2026-11-16T04:30:53.950951Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT1.959279S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.959279S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.104849S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.892786Z",
+    "max_ts": "2026-11-16T04:30:54.068263Z",
+    "name": "4:4f3d63a7586643bfa194ebbec224ab7b",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.164428Z",
+      "max_ts": "2026-11-16T04:30:51.164428Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.164428Z",
+        "max_ts": "2026-11-16T04:30:51.164428Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT18.851009S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT18.851011S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.892786Z",
+      "max_ts": "2026-11-16T04:30:51.239469Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.892786Z",
+        "max_ts": "2026-11-16T04:30:51.239469Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT1.346683S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.346683S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.166875Z",
+      "max_ts": "2026-11-16T04:30:54.068263Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.166875Z",
+        "max_ts": "2026-11-16T04:30:54.068263Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT2.901388S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.901388S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.175477S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.626131Z",
+    "max_ts": "2026-11-16T04:30:53.904229Z",
+    "name": "4:553e31eafe9945898ac2e07b9918ae2d",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.775763Z",
+      "max_ts": "2026-11-16T04:30:50.775763Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.775763Z",
+        "max_ts": "2026-11-16T04:30:50.775763Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT19.239701S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT19.239703S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.626131Z",
+      "max_ts": "2026-11-16T04:30:50.850509Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.626131Z",
+        "max_ts": "2026-11-16T04:30:50.850509Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT1.224378S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.224378S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.778914Z",
+      "max_ts": "2026-11-16T04:30:53.904229Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.778914Z",
+        "max_ts": "2026-11-16T04:30:53.904229Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT3.125315S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT3.125315S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.278098S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.716465Z",
+    "max_ts": "2026-11-16T04:30:54.047463Z",
+    "name": "4:687be4a5f6bc4da0993e4fc2f388b001",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.640721Z",
+      "max_ts": "2026-11-16T04:30:51.640721Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.640721Z",
+        "max_ts": "2026-11-16T04:30:51.640721Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT18.374776S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT18.374778S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.716465Z",
+      "max_ts": "2026-11-16T04:30:51.777544Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.716465Z",
+        "max_ts": "2026-11-16T04:30:51.777544Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT2.061079S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.061079S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.642309Z",
+      "max_ts": "2026-11-16T04:30:54.047463Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.642309Z",
+        "max_ts": "2026-11-16T04:30:54.047463Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT2.405154S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.405154S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.330998S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.521740Z",
+    "max_ts": "2026-11-16T04:30:54.032268Z",
+    "name": "4:7d1b92cb77b34e0aa564da83e956c52e",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.638917Z",
+      "max_ts": "2026-11-16T04:30:51.638917Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.638917Z",
+        "max_ts": "2026-11-16T04:30:51.638917Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT18.376609S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT18.376611S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.521740Z",
+      "max_ts": "2026-11-16T04:30:51.712706Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.521740Z",
+        "max_ts": "2026-11-16T04:30:51.712706Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT2.190966S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.190966S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.641171Z",
+      "max_ts": "2026-11-16T04:30:54.032268Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.641171Z",
+        "max_ts": "2026-11-16T04:30:54.032268Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT2.391097S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.391097S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.510528S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.497995Z",
+    "max_ts": "2026-11-16T04:30:54.172602Z",
+    "name": "4:7de1f4ceb7df433d8602cd70ff7f02ed",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.051197Z",
+      "max_ts": "2026-11-16T04:30:50.051197Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.051197Z",
+        "max_ts": "2026-11-16T04:30:50.051197Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT19.964355S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT19.964358S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.497995Z",
+      "max_ts": "2026-11-16T04:30:50.203906Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.497995Z",
+        "max_ts": "2026-11-16T04:30:50.203906Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT0.705911S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT0.705911S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.054349Z",
+      "max_ts": "2026-11-16T04:30:54.172602Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.054349Z",
+        "max_ts": "2026-11-16T04:30:54.172602Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT4.118253S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT4.118253S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.674607S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.638794Z",
+    "max_ts": "2026-11-16T04:30:53.990311Z",
+    "name": "4:7f92361e894d4712988b94061f33b89d",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:52.576481Z",
+      "max_ts": "2026-11-16T04:30:52.576481Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:52.576481Z",
+        "max_ts": "2026-11-16T04:30:52.576481Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT17.4391S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT17.439103S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.638794Z",
+      "max_ts": "2026-11-16T04:30:52.718243Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.638794Z",
+        "max_ts": "2026-11-16T04:30:52.718243Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT3.079449S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT3.079449S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:52.579376Z",
+      "max_ts": "2026-11-16T04:30:53.990311Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:52.579376Z",
+        "max_ts": "2026-11-16T04:30:53.990311Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT1.410935S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.410935S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.351517S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.729468Z",
+    "max_ts": "2026-11-16T04:30:53.891645Z",
+    "name": "4:95f10f955a294fb1816e694eaaec2aa6",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.443730Z",
+      "max_ts": "2026-11-16T04:30:51.443730Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.443730Z",
+        "max_ts": "2026-11-16T04:30:51.443730Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT18.571878S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT18.571881S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.729468Z",
+      "max_ts": "2026-11-16T04:30:51.599928Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.729468Z",
+        "max_ts": "2026-11-16T04:30:51.599928Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT1.87046S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.87046S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.446842Z",
+      "max_ts": "2026-11-16T04:30:53.891645Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.446842Z",
+        "max_ts": "2026-11-16T04:30:53.891645Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT2.444803S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.444803S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.162177S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.814593Z",
+    "max_ts": "2026-11-16T04:30:54.083138Z",
+    "name": "4:979a7b5891914fe8955d581b2c9cc714",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:52.577949Z",
+      "max_ts": "2026-11-16T04:30:52.577949Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:52.577949Z",
+        "max_ts": "2026-11-16T04:30:52.577949Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT17.437687S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT17.437689S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.814593Z",
+      "max_ts": "2026-11-16T04:30:52.719321Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.814593Z",
+        "max_ts": "2026-11-16T04:30:52.719321Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT2.904728S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.904728S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:52.580874Z",
+      "max_ts": "2026-11-16T04:30:54.083138Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:52.580874Z",
+        "max_ts": "2026-11-16T04:30:54.083138Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT1.502264S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.502264S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.268545S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.701968Z",
+    "max_ts": "2026-11-16T04:30:54.019366Z",
+    "name": "4:97bcbee86b6a432488f1de84f2cfa909",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.415910Z",
+      "max_ts": "2026-11-16T04:30:50.415910Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.415910Z",
+        "max_ts": "2026-11-16T04:30:50.415910Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT19.599753S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT19.599755S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.701968Z",
+      "max_ts": "2026-11-16T04:30:50.491451Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.701968Z",
+        "max_ts": "2026-11-16T04:30:50.491451Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT0.789483S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT0.789483S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.418685Z",
+      "max_ts": "2026-11-16T04:30:54.019366Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.418685Z",
+        "max_ts": "2026-11-16T04:30:54.019366Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT3.600681S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT3.600681S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.317398S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.577592Z",
+    "max_ts": "2026-11-16T04:30:53.729452Z",
+    "name": "4:99a176b7069b4c599ffea84af1ce7ba6",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.872712Z",
+      "max_ts": "2026-11-16T04:30:50.872712Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.872712Z",
+        "max_ts": "2026-11-16T04:30:50.872712Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT19.142977S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT19.14298S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.577592Z",
+      "max_ts": "2026-11-16T04:30:50.945038Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.577592Z",
+        "max_ts": "2026-11-16T04:30:50.945038Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT1.367446S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.367446S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.874877Z",
+      "max_ts": "2026-11-16T04:30:53.729452Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.874877Z",
+        "max_ts": "2026-11-16T04:30:53.729452Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT2.854575S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.854575S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.15186S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.567732Z",
+    "max_ts": "2026-11-16T04:30:53.847707Z",
+    "name": "4:a2df9ef3fca94b79bd7f9b773e306a0b",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.809793Z",
+      "max_ts": "2026-11-16T04:30:51.809793Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.809793Z",
+        "max_ts": "2026-11-16T04:30:51.809793Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT18.205923S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT18.205926S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.567732Z",
+      "max_ts": "2026-11-16T04:30:51.953541Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.567732Z",
+        "max_ts": "2026-11-16T04:30:51.953541Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT2.385809S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.385809S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.812138Z",
+      "max_ts": "2026-11-16T04:30:53.847707Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.812138Z",
+        "max_ts": "2026-11-16T04:30:53.847707Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT2.035569S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.035569S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.279975S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.533599Z",
+    "max_ts": "2026-11-16T04:30:53.965309Z",
+    "name": "4:a52555889ac94646b9d142051e9c71ff",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:52.175044Z",
+      "max_ts": "2026-11-16T04:30:52.175044Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:52.175044Z",
+        "max_ts": "2026-11-16T04:30:52.175044Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT17.8407S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT17.840702S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.533599Z",
+      "max_ts": "2026-11-16T04:30:52.364973Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.533599Z",
+        "max_ts": "2026-11-16T04:30:52.364973Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT2.831374S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.831374S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:52.245960Z",
+      "max_ts": "2026-11-16T04:30:53.965309Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:52.245960Z",
+        "max_ts": "2026-11-16T04:30:53.965309Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT1.719349S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.719349S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.43171S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.660350Z",
+    "max_ts": "2026-11-16T04:30:53.862256Z",
+    "name": "4:ac96f7f020fd44648a427911fdf9e941",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.417866Z",
+      "max_ts": "2026-11-16T04:30:50.417866Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.417866Z",
+        "max_ts": "2026-11-16T04:30:50.417866Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT19.597904S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT19.597907S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.660350Z",
+      "max_ts": "2026-11-16T04:30:50.560845Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.660350Z",
+        "max_ts": "2026-11-16T04:30:50.560845Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT0.900495S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT0.900495S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.490735Z",
+      "max_ts": "2026-11-16T04:30:53.862256Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.490735Z",
+        "max_ts": "2026-11-16T04:30:53.862256Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT3.371521S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT3.371521S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.201906S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.670910Z",
+    "max_ts": "2026-11-16T04:30:54.115318Z",
+    "name": "4:afc369c6c4f54489b92540baece7a3e8",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.990148Z",
+      "max_ts": "2026-11-16T04:30:51.990148Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.990148Z",
+        "max_ts": "2026-11-16T04:30:51.990148Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT18.02565S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT18.025653S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.670910Z",
+      "max_ts": "2026-11-16T04:30:52.156057Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.670910Z",
+        "max_ts": "2026-11-16T04:30:52.156057Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT2.485147S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.485147S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.993327Z",
+      "max_ts": "2026-11-16T04:30:54.115318Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.993327Z",
+        "max_ts": "2026-11-16T04:30:54.115318Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT2.121991S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.121991S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.444408S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.545004Z",
+    "max_ts": "2026-11-16T04:30:53.877269Z",
+    "name": "4:c0bdeb991bcd42f5bf66f1a57d2aa930",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.273589Z",
+      "max_ts": "2026-11-16T04:30:51.273589Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.273589Z",
+        "max_ts": "2026-11-16T04:30:51.273589Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT18.742237S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT18.742239S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.545004Z",
+      "max_ts": "2026-11-16T04:30:51.410448Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.545004Z",
+        "max_ts": "2026-11-16T04:30:51.410448Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT1.865444S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.865444S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.344678Z",
+      "max_ts": "2026-11-16T04:30:53.877269Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.344678Z",
+        "max_ts": "2026-11-16T04:30:53.877269Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT2.532591S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.532591S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.332265S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.473454Z",
+    "max_ts": "2026-11-16T04:30:54.003791Z",
+    "name": "4:c27c7ddad16f4a9889f24759a1620935",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.795561Z",
+      "max_ts": "2026-11-16T04:30:49.795561Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.795561Z",
+        "max_ts": "2026-11-16T04:30:49.795561Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT20.220292S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT20.220294S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.473454Z",
+      "max_ts": "2026-11-16T04:30:50.015774Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.473454Z",
+        "max_ts": "2026-11-16T04:30:50.015774Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT0.54232S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT0.54232S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.799538Z",
+      "max_ts": "2026-11-16T04:30:54.003791Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.799538Z",
+        "max_ts": "2026-11-16T04:30:54.003791Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT4.204253S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT4.204253S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.530337S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.601177Z",
+    "max_ts": "2026-11-16T04:30:54.133441Z",
+    "name": "4:c772797a854049efb0b6ce1cf34ccd10",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.244206Z",
+      "max_ts": "2026-11-16T04:30:50.244206Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.244206Z",
+        "max_ts": "2026-11-16T04:30:50.244206Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT19.771674S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT19.771676S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.601177Z",
+      "max_ts": "2026-11-16T04:30:50.385388Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.601177Z",
+        "max_ts": "2026-11-16T04:30:50.385388Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT0.784211S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT0.784211S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.316823Z",
+      "max_ts": "2026-11-16T04:30:54.133441Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.316823Z",
+        "max_ts": "2026-11-16T04:30:54.133441Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT3.816618S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT3.816618S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.532264S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.614758Z",
+    "max_ts": "2026-11-16T04:30:53.978324Z",
+    "name": "4:ca447b2a3be6475cbe9595b83cdaf9cd",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.087716Z",
+      "max_ts": "2026-11-16T04:30:51.087716Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.087716Z",
+        "max_ts": "2026-11-16T04:30:51.087716Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT18.928191S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT18.928193S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.614758Z",
+      "max_ts": "2026-11-16T04:30:51.164923Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.614758Z",
+        "max_ts": "2026-11-16T04:30:51.164923Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT1.550165S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.550165S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.090343Z",
+      "max_ts": "2026-11-16T04:30:53.978324Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.090343Z",
+        "max_ts": "2026-11-16T04:30:53.978324Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT2.887981S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.887981S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.363566S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.510180Z",
+    "max_ts": "2026-11-16T04:30:53.916636Z",
+    "name": "4:e2d5f136f2144b479dd5d42d1521efd1",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.241347Z",
+      "max_ts": "2026-11-16T04:30:50.241347Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.241347Z",
+        "max_ts": "2026-11-16T04:30:50.241347Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT19.774587S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT19.774589S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.510180Z",
+      "max_ts": "2026-11-16T04:30:50.316895Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.510180Z",
+        "max_ts": "2026-11-16T04:30:50.316895Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT0.806715S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT0.806715S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.244281Z",
+      "max_ts": "2026-11-16T04:30:53.916636Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.244281Z",
+        "max_ts": "2026-11-16T04:30:53.916636Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT3.672355S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT3.672355S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.406456S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.831056Z",
+    "max_ts": "2026-11-16T04:30:54.145812Z",
+    "name": "4:e3664d2413e04f93954417dd799098ff",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.666614Z",
+      "max_ts": "2026-11-16T04:30:50.666614Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.666614Z",
+        "max_ts": "2026-11-16T04:30:50.666614Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT19.349347S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT19.349349S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.831056Z",
+      "max_ts": "2026-11-16T04:30:50.742035Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.831056Z",
+        "max_ts": "2026-11-16T04:30:50.742035Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT0.910979S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT0.910979S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:50.670021Z",
+      "max_ts": "2026-11-16T04:30:54.145812Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:50.670021Z",
+        "max_ts": "2026-11-16T04:30:54.145812Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT3.475791S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT3.475791S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.314756S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.870315Z",
+    "max_ts": "2026-11-16T04:30:53.796544Z",
+    "name": "4:ed2a9b9eb25a4fdcae9ab90657f07395",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:52.388319Z",
+      "max_ts": "2026-11-16T04:30:52.388319Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:52.388319Z",
+        "max_ts": "2026-11-16T04:30:52.388319Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT17.627668S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT17.627671S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.870315Z",
+      "max_ts": "2026-11-16T04:30:52.475638Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.870315Z",
+        "max_ts": "2026-11-16T04:30:52.475638Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT2.605323S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.605323S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:52.399848Z",
+      "max_ts": "2026-11-16T04:30:53.796544Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:52.399848Z",
+        "max_ts": "2026-11-16T04:30:53.796544Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT1.396696S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.396696S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT1.5S",
+    "took": "PT3.926229S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.649411Z",
+    "max_ts": "2026-11-16T04:30:53.812331Z",
+    "name": "4:fe18d482af9a4d688c746d4783aa4105",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:52.401463Z",
+      "max_ts": "2026-11-16T04:30:52.401463Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:52.401463Z",
+        "max_ts": "2026-11-16T04:30:52.401463Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT17.614552S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT17.614554S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.649411Z",
+      "max_ts": "2026-11-16T04:30:52.545947Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.649411Z",
+        "max_ts": "2026-11-16T04:30:52.545947Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT2.896536S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.896536S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:52.476113Z",
+      "max_ts": "2026-11-16T04:30:53.812331Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:52.476113Z",
+        "max_ts": "2026-11-16T04:30:53.812331Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT1.336218S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.336218S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.16292S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   },
+   {
+    "todo": 1,
+    "doing": 0,
+    "succeeded": 2,
+    "failed": 0,
+    "aborted": 0,
+    "aborting": 0,
+    "cancelled": 0,
+    "min_ts": "2026-11-16T04:30:49.684972Z",
+    "max_ts": "2026-11-16T04:30:53.745711Z",
+    "name": "4:feaf263b315e424383f50f4e21022eee",
+    "queues": [
+     {
+      "todo": 1,
+      "doing": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.810395Z",
+      "max_ts": "2026-11-16T04:30:51.810395Z",
+      "name": "analyze",
+      "tasks": [
+       {
+        "todo": 1,
+        "doing": 0,
+        "succeeded": 0,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.810395Z",
+        "max_ts": "2026-11-16T04:30:51.810395Z",
+        "name": "ftm_analyze.tasks.analyze",
+        "remaining_time": null,
+        "took": "PT18.205647S",
+        "total": 1,
+        "active": 1,
+        "finished": 0
+       }
+      ],
+      "remaining_time": null,
+      "took": "PT18.205649S",
+      "total": 1,
+      "active": 1,
+      "finished": 0
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:49.684972Z",
+      "max_ts": "2026-11-16T04:30:51.954988Z",
+      "name": "ingest",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:49.684972Z",
+        "max_ts": "2026-11-16T04:30:51.954988Z",
+        "name": "ingestors.tasks.ingest",
+        "remaining_time": "PT0S",
+        "took": "PT2.270016S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT2.270016S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     },
+     {
+      "todo": 0,
+      "doing": 0,
+      "succeeded": 1,
+      "failed": 0,
+      "aborted": 0,
+      "aborting": 0,
+      "cancelled": 0,
+      "min_ts": "2026-11-16T04:30:51.812996Z",
+      "max_ts": "2026-11-16T04:30:53.745711Z",
+      "name": "openaleph",
+      "tasks": [
+       {
+        "todo": 0,
+        "doing": 0,
+        "succeeded": 1,
+        "failed": 0,
+        "aborted": 0,
+        "aborting": 0,
+        "cancelled": 0,
+        "min_ts": "2026-11-16T04:30:51.812996Z",
+        "max_ts": "2026-11-16T04:30:53.745711Z",
+        "name": "aleph.procrastinate.tasks.index_entities",
+        "remaining_time": "PT0S",
+        "took": "PT1.932715S",
+        "total": 1,
+        "active": 0,
+        "finished": 1
+       }
+      ],
+      "remaining_time": "PT0S",
+      "took": "PT1.932715S",
+      "total": 1,
+      "active": 0,
+      "finished": 1
+     }
+    ],
+    "remaining_time": "PT2S",
+    "took": "PT4.060739S",
+    "total": 3,
+    "active": 1,
+    "finished": 2
+   }
+  ],
+  "collection": {
+   "created_at": "2026-11-16T04:30:49.242151",
+   "updated_at": "2026-11-16T04:30:49.244271",
+   "category": "other",
+   "frequency": "unknown",
+   "name": "etd_1794803449",
+   "collection_id": "3",
+   "foreign_id": "etd_1794803449",
+   "data_updated_at": "2026-11-16T04:30:49.883483",
+   "label": "ETD evidence ledger",
+   "casefile": false,
+   "secret": true,
+   "xref": false,
+   "restricted": false,
+   "contains_ai": false,
+   "external": false,
+   "maintenance": false,
+   "taggable": false,
+   "id": "3",
+   "writeable": true,
+   "links": {
+    "self": "http://localhost:8080/api/2/collections/3",
+    "xref_export": "http://localhost:8080/api/2/collections/3/xref.xlsx?_authz=%3CAuthz(4)%3E",
+    "reconcile": "http://localhost:8080/api/2/collections/3/reconcile",
+    "ui": "http://localhost:8080/datasets/3"
+   },
+   "shallow": true,
+   "shareable": true
+  },
+  "remaining_time": "PT2S",
+  "took": "PT4.735633S",
+  "total": 90,
+  "active": 30,
+  "finished": 60
+ },
+ "entity_schemas": {
+  "PlainText": 27,
+  "Table": 1,
+  "Document": 2
+ },
+ "total_entities": 30,
+ "queries": {
+  "verified": [
+   [
+    "18.38c32b73ac3d236781b51b7b185f82e43f8af1a0",
+    "wiki/findings/sfbay-t2m.md",
+    "PlainText"
+   ],
+   [
+    "27.f3ec9c90d0ca5de6d21c577c12034057bf65e12c",
+    "ledger.md",
+    "PlainText"
+   ],
+   [
+    "5.c71a77fb4c7bff09e8beed0c49b216f4014bb6b9",
+    "wiki/findings/amazon-t2m.md",
+    "PlainText"
+   ],
+   [
+    "15.a2bed9097119f5fe291b84f8cd7fe0bba4dd4846",
+    "wiki/findings/sahel-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "28.1d5ef7792455913b55951d91a8d70a77f82aef93",
+    "ledger.csv",
+    "Table"
+   ],
+   [
+    "7.c847a6b316373d6100a8b66f8e4ee7205c5cc522",
+    "wiki/findings/california-t2m.md",
+    "PlainText"
+   ],
+   [
+    "16.4db7b3f0ea9e3febc1728709dc5776af7dd8cb3b",
+    "wiki/findings/sahel-t2m.md",
+    "PlainText"
+   ],
+   [
+    "29.56379597ba6a959b41f68b770926bf0194bdea37",
+    "results.json",
+    "Document"
+   ],
+   [
+    "21.3a6cd96880ff928565d0b90467f615c5340b17d9",
+    "wiki/findings/svalbard-t2m.md",
+    "PlainText"
+   ],
+   [
+    "30.5821a979bdb32b4729c503a5140b1a42c990d82a",
+    "evidence_graph.json",
+    "Document"
+   ],
+   [
+    "13.2c98d1e368767fb80367caff31a6bb4057b0ef1c",
+    "wiki/findings/murray-t2m.md",
+    "PlainText"
+   ],
+   [
+    "4.2c32952dd2a0d1ee5f1d65a6697dea14c8360429",
+    "wiki/findings/amazon-prectotcorr.md",
+    "PlainText"
+   ]
+  ],
+  "contradicted": [
+   [
+    "11.201ac3bc3715f1484e69b0cc40ae5f3ec0e8a0a1",
+    "wiki/findings/delhi-t2m.md",
+    "PlainText"
+   ],
+   [
+    "30.5821a979bdb32b4729c503a5140b1a42c990d82a",
+    "evidence_graph.json",
+    "Document"
+   ],
+   [
+    "29.56379597ba6a959b41f68b770926bf0194bdea37",
+    "results.json",
+    "Document"
+   ],
+   [
+    "27.f3ec9c90d0ca5de6d21c577c12034057bf65e12c",
+    "ledger.md",
+    "PlainText"
+   ],
+   [
+    "28.1d5ef7792455913b55951d91a8d70a77f82aef93",
+    "ledger.csv",
+    "Table"
+   ]
+  ],
+  "significant": [
+   [
+    "27.f3ec9c90d0ca5de6d21c577c12034057bf65e12c",
+    "ledger.md",
+    "PlainText"
+   ],
+   [
+    "6.8b0b3b46a3d1c89a6613cc1f3ed33dfec60b1157",
+    "wiki/findings/california-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "12.4953e8deba042b65cd4f55c265ab31dbec501121",
+    "wiki/findings/murray-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "15.a2bed9097119f5fe291b84f8cd7fe0bba4dd4846",
+    "wiki/findings/sahel-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "7.c847a6b316373d6100a8b66f8e4ee7205c5cc522",
+    "wiki/findings/california-t2m.md",
+    "PlainText"
+   ],
+   [
+    "16.4db7b3f0ea9e3febc1728709dc5776af7dd8cb3b",
+    "wiki/findings/sahel-t2m.md",
+    "PlainText"
+   ],
+   [
+    "28.1d5ef7792455913b55951d91a8d70a77f82aef93",
+    "ledger.csv",
+    "Table"
+   ],
+   [
+    "14.46cbafa77a4b841d4a3059713b2c12549013a4ad",
+    "wiki/findings/sahel-gwetroot.md",
+    "PlainText"
+   ],
+   [
+    "5.c71a77fb4c7bff09e8beed0c49b216f4014bb6b9",
+    "wiki/findings/amazon-t2m.md",
+    "PlainText"
+   ],
+   [
+    "29.56379597ba6a959b41f68b770926bf0194bdea37",
+    "results.json",
+    "Document"
+   ],
+   [
+    "20.00946c469a7ba2eb9ea2a1123cb9f7f70377fb38",
+    "wiki/findings/svalbard-snodp.md",
+    "PlainText"
+   ],
+   [
+    "18.38c32b73ac3d236781b51b7b185f82e43f8af1a0",
+    "wiki/findings/sfbay-t2m.md",
+    "PlainText"
+   ],
+   [
+    "19.563002fc2ed7db5fe070fb355273ea7f0dc1df1c",
+    "wiki/findings/svalbard-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "9.aff145808ee0cf886536d6ffc1849b5c06ba8bc0",
+    "wiki/findings/delhi-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "8.e7e5edc9c60d6f03123a35b197181a43edd372ca",
+    "wiki/findings/delhi-allsky_sfc_sw_dwn.md",
+    "PlainText"
+   ],
+   [
+    "10.5a9adc7826da4c95994f1ed5bcbecf9bbe8ee6ca",
+    "wiki/findings/delhi-rh2m.md",
+    "PlainText"
+   ],
+   [
+    "17.7a5f0f6e2e3473f6217b7df9e78dc0de2fbaf898",
+    "wiki/findings/sfbay-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "21.3a6cd96880ff928565d0b90467f615c5340b17d9",
+    "wiki/findings/svalbard-t2m.md",
+    "PlainText"
+   ],
+   [
+    "11.201ac3bc3715f1484e69b0cc40ae5f3ec0e8a0a1",
+    "wiki/findings/delhi-t2m.md",
+    "PlainText"
+   ],
+   [
+    "2.a062efaf436231336b0f7591ee3381e291f59b2b",
+    "wiki/findings/amazon-cloud_amt.md",
+    "PlainText"
+   ],
+   [
+    "3.49ae8d7df3e48dd33693c7e3034e26fcd96e8e73",
+    "wiki/findings/amazon-gwetroot.md",
+    "PlainText"
+   ],
+   [
+    "13.2c98d1e368767fb80367caff31a6bb4057b0ef1c",
+    "wiki/findings/murray-t2m.md",
+    "PlainText"
+   ],
+   [
+    "4.2c32952dd2a0d1ee5f1d65a6697dea14c8360429",
+    "wiki/findings/amazon-prectotcorr.md",
+    "PlainText"
+   ]
+  ],
+  "\"not significant\"": [
+   [
+    "12.4953e8deba042b65cd4f55c265ab31dbec501121",
+    "wiki/findings/murray-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "28.1d5ef7792455913b55951d91a8d70a77f82aef93",
+    "ledger.csv",
+    "Table"
+   ],
+   [
+    "27.f3ec9c90d0ca5de6d21c577c12034057bf65e12c",
+    "ledger.md",
+    "PlainText"
+   ],
+   [
+    "19.563002fc2ed7db5fe070fb355273ea7f0dc1df1c",
+    "wiki/findings/svalbard-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "9.aff145808ee0cf886536d6ffc1849b5c06ba8bc0",
+    "wiki/findings/delhi-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "6.8b0b3b46a3d1c89a6613cc1f3ed33dfec60b1157",
+    "wiki/findings/california-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "29.56379597ba6a959b41f68b770926bf0194bdea37",
+    "results.json",
+    "Document"
+   ]
+  ],
+  "suggestive": [
+   [
+    "17.7a5f0f6e2e3473f6217b7df9e78dc0de2fbaf898",
+    "wiki/findings/sfbay-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "11.201ac3bc3715f1484e69b0cc40ae5f3ec0e8a0a1",
+    "wiki/findings/delhi-t2m.md",
+    "PlainText"
+   ],
+   [
+    "9.aff145808ee0cf886536d6ffc1849b5c06ba8bc0",
+    "wiki/findings/delhi-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "27.f3ec9c90d0ca5de6d21c577c12034057bf65e12c",
+    "ledger.md",
+    "PlainText"
+   ],
+   [
+    "6.8b0b3b46a3d1c89a6613cc1f3ed33dfec60b1157",
+    "wiki/findings/california-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "29.56379597ba6a959b41f68b770926bf0194bdea37",
+    "results.json",
+    "Document"
+   ],
+   [
+    "28.1d5ef7792455913b55951d91a8d70a77f82aef93",
+    "ledger.csv",
+    "Table"
+   ]
+  ],
+  "unverified": [
+   [
+    "14.46cbafa77a4b841d4a3059713b2c12549013a4ad",
+    "wiki/findings/sahel-gwetroot.md",
+    "PlainText"
+   ],
+   [
+    "19.563002fc2ed7db5fe070fb355273ea7f0dc1df1c",
+    "wiki/findings/svalbard-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "9.aff145808ee0cf886536d6ffc1849b5c06ba8bc0",
+    "wiki/findings/delhi-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "27.f3ec9c90d0ca5de6d21c577c12034057bf65e12c",
+    "ledger.md",
+    "PlainText"
+   ],
+   [
+    "10.5a9adc7826da4c95994f1ed5bcbecf9bbe8ee6ca",
+    "wiki/findings/delhi-rh2m.md",
+    "PlainText"
+   ],
+   [
+    "6.8b0b3b46a3d1c89a6613cc1f3ed33dfec60b1157",
+    "wiki/findings/california-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "2.a062efaf436231336b0f7591ee3381e291f59b2b",
+    "wiki/findings/amazon-cloud_amt.md",
+    "PlainText"
+   ],
+   [
+    "3.49ae8d7df3e48dd33693c7e3034e26fcd96e8e73",
+    "wiki/findings/amazon-gwetroot.md",
+    "PlainText"
+   ],
+   [
+    "28.1d5ef7792455913b55951d91a8d70a77f82aef93",
+    "ledger.csv",
+    "Table"
+   ],
+   [
+    "20.00946c469a7ba2eb9ea2a1123cb9f7f70377fb38",
+    "wiki/findings/svalbard-snodp.md",
+    "PlainText"
+   ],
+   [
+    "12.4953e8deba042b65cd4f55c265ab31dbec501121",
+    "wiki/findings/murray-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "8.e7e5edc9c60d6f03123a35b197181a43edd372ca",
+    "wiki/findings/delhi-allsky_sfc_sw_dwn.md",
+    "PlainText"
+   ],
+   [
+    "17.7a5f0f6e2e3473f6217b7df9e78dc0de2fbaf898",
+    "wiki/findings/sfbay-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "30.5821a979bdb32b4729c503a5140b1a42c990d82a",
+    "evidence_graph.json",
+    "Document"
+   ],
+   [
+    "29.56379597ba6a959b41f68b770926bf0194bdea37",
+    "results.json",
+    "Document"
+   ]
+  ],
+  "GISTEMP": [
+   [
+    "27.f3ec9c90d0ca5de6d21c577c12034057bf65e12c",
+    "ledger.md",
+    "PlainText"
+   ],
+   [
+    "29.56379597ba6a959b41f68b770926bf0194bdea37",
+    "results.json",
+    "Document"
+   ],
+   [
+    "26.68319eca2f750ca9f771b142772f25ccb68801bb",
+    "wiki/stations/gistemp.md",
+    "PlainText"
+   ],
+   [
+    "5.c71a77fb4c7bff09e8beed0c49b216f4014bb6b9",
+    "wiki/findings/amazon-t2m.md",
+    "PlainText"
+   ],
+   [
+    "13.2c98d1e368767fb80367caff31a6bb4057b0ef1c",
+    "wiki/findings/murray-t2m.md",
+    "PlainText"
+   ],
+   [
+    "11.201ac3bc3715f1484e69b0cc40ae5f3ec0e8a0a1",
+    "wiki/findings/delhi-t2m.md",
+    "PlainText"
+   ],
+   [
+    "18.38c32b73ac3d236781b51b7b185f82e43f8af1a0",
+    "wiki/findings/sfbay-t2m.md",
+    "PlainText"
+   ],
+   [
+    "23.9262611f62803a1c92d6ecf8727f33b001307498",
+    "wiki/models/power-merra2.md",
+    "PlainText"
+   ],
+   [
+    "28.1d5ef7792455913b55951d91a8d70a77f82aef93",
+    "ledger.csv",
+    "Table"
+   ],
+   [
+    "7.c847a6b316373d6100a8b66f8e4ee7205c5cc522",
+    "wiki/findings/california-t2m.md",
+    "PlainText"
+   ],
+   [
+    "16.4db7b3f0ea9e3febc1728709dc5776af7dd8cb3b",
+    "wiki/findings/sahel-t2m.md",
+    "PlainText"
+   ],
+   [
+    "22.6502a62d4d06227c852b819c878a7bba5dee2f6d",
+    "wiki/index.md",
+    "PlainText"
+   ],
+   [
+    "21.3a6cd96880ff928565d0b90467f615c5340b17d9",
+    "wiki/findings/svalbard-t2m.md",
+    "PlainText"
+   ],
+   [
+    "30.5821a979bdb32b4729c503a5140b1a42c990d82a",
+    "evidence_graph.json",
+    "Document"
+   ]
+  ],
+  "GPCP": [
+   [
+    "23.9262611f62803a1c92d6ecf8727f33b001307498",
+    "wiki/models/power-merra2.md",
+    "PlainText"
+   ],
+   [
+    "6.8b0b3b46a3d1c89a6613cc1f3ed33dfec60b1157",
+    "wiki/findings/california-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "27.f3ec9c90d0ca5de6d21c577c12034057bf65e12c",
+    "ledger.md",
+    "PlainText"
+   ],
+   [
+    "30.5821a979bdb32b4729c503a5140b1a42c990d82a",
+    "evidence_graph.json",
+    "Document"
+   ],
+   [
+    "4.2c32952dd2a0d1ee5f1d65a6697dea14c8360429",
+    "wiki/findings/amazon-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "24.959011ebcfa97dada7a453194521ad8a4f25e4cb",
+    "wiki/satellites/gpcp.md",
+    "PlainText"
+   ],
+   [
+    "19.563002fc2ed7db5fe070fb355273ea7f0dc1df1c",
+    "wiki/findings/svalbard-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "9.aff145808ee0cf886536d6ffc1849b5c06ba8bc0",
+    "wiki/findings/delhi-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "15.a2bed9097119f5fe291b84f8cd7fe0bba4dd4846",
+    "wiki/findings/sahel-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "28.1d5ef7792455913b55951d91a8d70a77f82aef93",
+    "ledger.csv",
+    "Table"
+   ],
+   [
+    "12.4953e8deba042b65cd4f55c265ab31dbec501121",
+    "wiki/findings/murray-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "17.7a5f0f6e2e3473f6217b7df9e78dc0de2fbaf898",
+    "wiki/findings/sfbay-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "29.56379597ba6a959b41f68b770926bf0194bdea37",
+    "results.json",
+    "Document"
+   ],
+   [
+    "22.6502a62d4d06227c852b819c878a7bba5dee2f6d",
+    "wiki/index.md",
+    "PlainText"
+   ]
+  ],
+  "corroborated": [
+   [
+    "15.a2bed9097119f5fe291b84f8cd7fe0bba4dd4846",
+    "wiki/findings/sahel-prectotcorr.md",
+    "PlainText"
+   ],
+   [
+    "18.38c32b73ac3d236781b51b7b185f82e43f8af1a0",
+    "wiki/findings/sfbay-t2m.md",
+    "PlainText"
+   ],
+   [
+    "5.c71a77fb4c7bff09e8beed0c49b216f4014bb6b9",
+    "wiki/findings/amazon-t2m.md",
+    "PlainText"
+   ],
+   [
+    "7.c847a6b316373d6100a8b66f8e4ee7205c5cc522",
+    "wiki/findings/california-t2m.md",
+    "PlainText"
+   ],
+   [
+    "16.4db7b3f0ea9e3febc1728709dc5776af7dd8cb3b",
+    "wiki/findings/sahel-t2m.md",
+    "PlainText"
+   ],
+   [
+    "21.3a6cd96880ff928565d0b90467f615c5340b17d9",
+    "wiki/findings/svalbard-t2m.md",
+    "PlainText"
+   ],
+   [
+    "13.2c98d1e368767fb80367caff31a6bb4057b0ef1c",
+    "wiki/findings/murray-t2m.md",
+    "PlainText"
+   ],
+   [
+    "4.2c32952dd2a0d1ee5f1d65a6697dea14c8360429",
+    "wiki/findings/amazon-prectotcorr.md",
+    "PlainText"
+   ]
+  ],
+  "artifact OR chance": []
+ },
+ "exported_docs": {
+  "18.38c32b73ac3d236781b51b7b185f82e43f8af1a0": {
+   "name": "wiki/findings/sfbay-t2m.md",
+   "schema": "PlainText",
+   "chars": 583
+  },
+  "27.f3ec9c90d0ca5de6d21c577c12034057bf65e12c": {
+   "name": "ledger.md",
+   "schema": "PlainText",
+   "chars": 37158
+  },
+  "5.c71a77fb4c7bff09e8beed0c49b216f4014bb6b9": {
+   "name": "wiki/findings/amazon-t2m.md",
+   "schema": "PlainText",
+   "chars": 589
+  },
+  "15.a2bed9097119f5fe291b84f8cd7fe0bba4dd4846": {
+   "name": "wiki/findings/sahel-prectotcorr.md",
+   "schema": "PlainText",
+   "chars": 598
+  },
+  "28.1d5ef7792455913b55951d91a8d70a77f82aef93": {
+   "name": "ledger.csv",
+   "schema": "Table",
+   "chars": 570
+  },
+  "7.c847a6b316373d6100a8b66f8e4ee7205c5cc522": {
+   "name": "wiki/findings/california-t2m.md",
+   "schema": "PlainText",
+   "chars": 594
+  },
+  "16.4db7b3f0ea9e3febc1728709dc5776af7dd8cb3b": {
+   "name": "wiki/findings/sahel-t2m.md",
+   "schema": "PlainText",
+   "chars": 591
+  },
+  "29.56379597ba6a959b41f68b770926bf0194bdea37": {
+   "name": "results.json",
+   "schema": "Document",
+   "chars": 0
+  },
+  "21.3a6cd96880ff928565d0b90467f615c5340b17d9": {
+   "name": "wiki/findings/svalbard-t2m.md",
+   "schema": "PlainText",
+   "chars": 584
+  },
+  "30.5821a979bdb32b4729c503a5140b1a42c990d82a": {
+   "name": "evidence_graph.json",
+   "schema": "Document",
+   "chars": 0
+  },
+  "13.2c98d1e368767fb80367caff31a6bb4057b0ef1c": {
+   "name": "wiki/findings/murray-t2m.md",
+   "schema": "PlainText",
+   "chars": 585
+  },
+  "4.2c32952dd2a0d1ee5f1d65a6697dea14c8360429": {
+   "name": "wiki/findings/amazon-prectotcorr.md",
+   "schema": "PlainText",
+   "chars": 598
+  },
+  "11.201ac3bc3715f1484e69b0cc40ae5f3ec0e8a0a1": {
+   "name": "wiki/findings/delhi-t2m.md",
+   "schema": "PlainText",
+   "chars": 589
+  },
+  "6.8b0b3b46a3d1c89a6613cc1f3ed33dfec60b1157": {
+   "name": "wiki/findings/california-prectotcorr.md",
+   "schema": "PlainText",
+   "chars": 608
+  },
+  "12.4953e8deba042b65cd4f55c265ab31dbec501121": {
+   "name": "wiki/findings/murray-prectotcorr.md",
+   "schema": "PlainText",
+   "chars": 597
+  },
+  "14.46cbafa77a4b841d4a3059713b2c12549013a4ad": {
+   "name": "wiki/findings/sahel-gwetroot.md",
+   "schema": "PlainText",
+   "chars": 487
+  },
+  "20.00946c469a7ba2eb9ea2a1123cb9f7f70377fb38": {
+   "name": "wiki/findings/svalbard-snodp.md",
+   "schema": "PlainText",
+   "chars": 463
+  },
+  "19.563002fc2ed7db5fe070fb355273ea7f0dc1df1c": {
+   "name": "wiki/findings/svalbard-prectotcorr.md",
+   "schema": "PlainText",
+   "chars": 602
+  },
+  "9.aff145808ee0cf886536d6ffc1849b5c06ba8bc0": {
+   "name": "wiki/findings/delhi-prectotcorr.md",
+   "schema": "PlainText",
+   "chars": 618
+  },
+  "8.e7e5edc9c60d6f03123a35b197181a43edd372ca": {
+   "name": "wiki/findings/delhi-allsky_sfc_sw_dwn.md",
+   "schema": "PlainText",
+   "chars": 498
+  },
+  "10.5a9adc7826da4c95994f1ed5bcbecf9bbe8ee6ca": {
+   "name": "wiki/findings/delhi-rh2m.md",
+   "schema": "PlainText",
+   "chars": 475
+  },
+  "17.7a5f0f6e2e3473f6217b7df9e78dc0de2fbaf898": {
+   "name": "wiki/findings/sfbay-prectotcorr.md",
+   "schema": "PlainText",
+   "chars": 593
+  },
+  "2.a062efaf436231336b0f7591ee3381e291f59b2b": {
+   "name": "wiki/findings/amazon-cloud_amt.md",
+   "schema": "PlainText",
+   "chars": 476
+  },
+  "3.49ae8d7df3e48dd33693c7e3034e26fcd96e8e73": {
+   "name": "wiki/findings/amazon-gwetroot.md",
+   "schema": "PlainText",
+   "chars": 485
+  },
+  "26.68319eca2f750ca9f771b142772f25ccb68801bb": {
+   "name": "wiki/stations/gistemp.md",
+   "schema": "PlainText",
+   "chars": 749
+  },
+  "23.9262611f62803a1c92d6ecf8727f33b001307498": {
+   "name": "wiki/models/power-merra2.md",
+   "schema": "PlainText",
+   "chars": 873
+  },
+  "22.6502a62d4d06227c852b819c878a7bba5dee2f6d": {
+   "name": "wiki/index.md",
+   "schema": "PlainText",
+   "chars": 3428
+  },
+  "24.959011ebcfa97dada7a453194521ad8a4f25e4cb": {
+   "name": "wiki/satellites/gpcp.md",
+   "schema": "PlainText",
+   "chars": 849
+  }
+ }
+}

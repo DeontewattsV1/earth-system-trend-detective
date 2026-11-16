@@ -1,0 +1,148 @@
+[
+ {
+  "text": "Trend Magnitude: +0.6793 \u00b0C per decade",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.6793,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=0.6793"
+ },
+ {
+  "text": "Statistical Significance: Extremely significant (p_ttest = 1.672e-10)",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 1.672e-10,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger p_ttest=1.672e-10"
+ },
+ {
+  "text": "Statistical Significance: Extremely significant (p_mk = 4.175e-30)",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "p_mk",
+  "value": 4.175e-30,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger p_mk=4.175e-30"
+ },
+ {
+  "text": "Corroborated Trend: +0.7434 \u00b0C per decade",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": 0.7434,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=0.7434"
+ },
+ {
+  "text": "Corroboration Significance: Highly significant (p_ttest = 1.509e-22)",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 1.509e-22,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_p_ttest=1.509e-22"
+ },
+ {
+  "text": "Anomaly Correlation: 0.8605",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "anomaly_correlation",
+  "value": 0.8605,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger anomaly_correlation=0.8605"
+ },
+ {
+  "text": "Status: Verified and significant",
+  "row_id": "svalbard:T2M",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Trend Magnitude: +0.3148 \u00b0C per decade",
+  "row_id": "svalbard:T2M_MAX",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.3148,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=0.3148"
+ },
+ {
+  "text": "Statistical Significance: Significant (p_ttest = 4.662e-10)",
+  "row_id": "svalbard:T2M_MAX",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 4.662e-10,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger p_ttest=4.662e-10"
+ },
+ {
+  "text": "Statistical Significance: Significant (p_mk = 1.081e-17)",
+  "row_id": "svalbard:T2M_MAX",
+  "kind": "numeric",
+  "field": "p_mk",
+  "value": 1.081e-17,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger p_mk=1.081e-17"
+ },
+ {
+  "text": "Status: Unverified",
+  "row_id": "svalbard:T2M_MAX",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Corroborating Product: None reported",
+  "row_id": "svalbard:T2M_MAX",
+  "kind": "other",
+  "asserted": null,
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "NASA POWER MERRA-2 Reanalysis data covers 1981\u20132025 at a 0.5\u00b0 x 0.625\u00b0 spatial resolution",
+  "row_id": null,
+  "kind": "other",
+  "asserted": null,
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "GISTEMP v4 Station Temperature records use a 2\u00b0 grid",
+  "row_id": null,
+  "kind": "other",
+  "asserted": null,
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "Trend significance is assessed using p-values from t-tests and Mann-Kendall tests, with significance typically accepted at p < 0.05",
+  "row_id": null,
+  "kind": "other",
+  "asserted": null,
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "Corroboration requires that an independent NASA product shows a significant trend of the same sign and a strong anomaly correlation with the primary data",
+  "row_id": null,
+  "kind": "other",
+  "asserted": null,
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ }
+]

@@ -1,0 +1,29 @@
+{
+ "import_seconds": 41.3,
+ "import_response": {
+  "status": "completed",
+  "nodes_created": 82,
+  "nodes_skipped": 0,
+  "errors": []
+ },
+ "graph_nodes": 82,
+ "graph_edges": 158,
+ "chats": {
+  "A_select_all": {
+   "http": 200,
+   "seconds": 19.7,
+   "n_context_items": 82,
+   "context_chars": 4025,
+   "context_truncated_at_2000": true,
+   "context_seen_by_llm": "Context: NASA POWER MERRA-2/CERES (primary); GISTEMP v4 (independent); GPCP v2.3 (independent); Region svalbard; Region sahel; Region amazon; Region california; Region delhi; Region murray; Region sfbay; svalbard:T2M verified; +0.679/dec p=1.7e-10; gistemp +0.743 p=1.5e-22; svalbard:T2M_MAX unverified; +0.315/dec p=4.7e-10; svalbard:PRECTOTCORR unverified; +0.0178/dec p=0.35; gpcp +0.132 p=1.4e-06; svalbard:EVLAND unverified; +0.00845/dec p=0.0082; svalbard:GWETROOT unverified; +0.00724/dec p=0.0015; svalbard:RH2M unverified; -0.416/dec p=3.2e-05; svalbard:QV2M unverified; +0.122/dec p=2.9e-15; svalbard:WS10M unverified; -0.0443/dec p=0.1; svalbard:ALLSKY_SFC_SW_DWN unverified; -0.0757/dec p=0.17; svalbard:CLOUD_AMT unverified; -0.417/dec p=0.29; svalbard:SNODP unverified; -4.05/dec p=2.2e-05; sahel:T2M verified; +0.124/dec p=0.0086; gistemp +0.231 p=5.4e-16; sahel:T2M_MAX unverified; +0.0596/dec p=0.31; sahel:PRECTOTCORR verified; +0.117/dec p=1.5e-05; gpcp +0.112 p=7.8e-06; sahel:EVLAND unverified; +0.0727/dec p=0.00091; sahel:GWETROOT unverified; +0.00831/dec p=0.0019; sahel:RH2M unverified; +0.933/dec p=0.0023; sahel:QV2M unverified; +0.249/dec p=6.8e-07; sahel:WS10M unverified; -0.0443/dec p=7.2e-06; sahel:ALLSKY_SFC_SW_DWN unverified; -0.199/dec p=0.021; sahel:CLOUD_AMT unverified; +2.73/dec p=0.00017; amazon:T2M verified; +0.482/dec p=5.6e-09; gistemp +0.266 p=1.8e-18; amazon:T2M_MAX unverified; +0.801/dec p=4.8e-09; amazon:PRECTOTCORR verified; -0.574/dec p=5.1e-23; gpcp -0.263 p=4.9e-07; amazon:EVLAND unverified; -0.27/dec p=5.8e-12; amazon:GWETROOT unverified; -0.0286/dec p=3.7e-05; amazon:RH2M unverified; -2.3/dec p=7.1e-07; amazon:QV2M unverified; -0.109/dec p=0.015; amazon:WS10M unverified; +0.00164/dec p=0.21; amazon:ALLSKY_SFC_SW_DWN unverified; +0.331/dec p=0.00031; amazon:CLOUD_AMT unverified; -3.86/dec p=2.5e-06; california:T2M verified; +0.314/dec p=4.9e-07; gistemp +0.245 p=1.1e-06; california:T2M_MAX unverified; +0.362/dec p=6.4e-05; california:..."
+  },
+  "B_select_non_unverified": {
+   "http": 200,
+   "seconds": 16.8,
+   "n_context_items": 9,
+   "context_chars": 637,
+   "context_truncated_at_2000": false,
+   "context_seen_by_llm": "Context: svalbard:T2M verified; +0.679/dec p=1.7e-10; gistemp +0.743 p=1.5e-22; sahel:T2M verified; +0.124/dec p=0.0086; gistemp +0.231 p=5.4e-16; sahel:PRECTOTCORR verified; +0.117/dec p=1.5e-05; gpcp +0.112 p=7.8e-06; amazon:T2M verified; +0.482/dec p=5.6e-09; gistemp +0.266 p=1.8e-18; amazon:PRECTOTCORR verified; -0.574/dec p=5.1e-23; gpcp -0.263 p=4.9e-07; california:T2M verified; +0.314/dec p=4.9e-07; gistemp +0.245 p=1.1e-06; delhi:T2M contradicted; -0.0993/dec p=0.16; gistemp +0.24 p=2.3e-10; murray:T2M verified; +0.24/dec p=0.00017; gistemp +0.26 p=1.8e-10; sfbay:T2M verified; +0.172/dec p=0.0016; gistemp +0.238 p=2.4e-06"
+  }
+ }
+}

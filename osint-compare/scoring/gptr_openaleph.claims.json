@@ -1,0 +1,126 @@
+[
+ {
+  "text": "The air temperature at 2 meters in the Svalbard & Barents Sea region (Arctic) shows a warming trend of +0.6793 \u00b0C per decade over 1981\u20132025.",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.6793,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=0.6793"
+ },
+ {
+  "text": "Highly significant with p-values of 1.672e-10 (t-test)",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 1.672e-10,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger p_ttest=1.672e-10"
+ },
+ {
+  "text": "Highly significant with p-values of ... 4.175e-30 (Mann-Kendall)",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "p_mk",
+  "value": 4.175e-30,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger p_mk=4.175e-30"
+ },
+ {
+  "text": "Confirmed by the independent NASA GISTEMP v4 station temperature product, which shows a slope of +0.7434 \u00b0C/decade",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": 0.7434,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=0.7434"
+ },
+ {
+  "text": "Confirmed by the independent NASA GISTEMP v4 station temperature product, which shows ... p = 1.509e-22",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 1.509e-22,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_p_ttest=1.509e-22"
+ },
+ {
+  "text": "Anomaly Correlation: 0.8605 between the two products",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "anomaly_correlation",
+  "value": 0.8605,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger anomaly_correlation=0.8605"
+ },
+ {
+  "text": "The independent product corroborates the trend with the same sign and significance, making this a robust warming signal in the Arctic region",
+  "row_id": "svalbard:T2M",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "The evidence ledger explicitly marks trends as \"verified\" and \"significant\" when these criteria are met.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "Trends can be affected by changes in the observing system.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "Missing processes (e.g., irrigation) may bias model trends.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "Trends lacking corroboration from independent products or showing inconsistent signs or low anomaly correlations should be treated with skepticism.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "If a trend is significant in the MERRA-2 reanalysis but not supported by GISTEMP or satellite data, it may reflect model artifacts or observational biases.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "The primary data sources referenced include NASA POWER MERRA-2 Reanalysis, NASA GISTEMP v4 Station Temperature, NASA Satellite Products (CERES SYN1deg Radiation and GPCP v2.3 Precipitation), and the Evidence Ledger.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "The evaluation criteria for robustness are: Statistical Significance (p < 0.05 in both t-test and Mann-Kendall), Corroboration by independent NASA product with same sign and significance, and Consistency via high anomaly correlation.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "The example of Arctic warming in Svalbard is a clear, well-supported case of significant regional temperature increase.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ }
+]

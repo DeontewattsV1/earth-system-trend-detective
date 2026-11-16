@@ -1,0 +1,1206 @@
+{
+ "nodes": [
+  {
+   "id": "merra2",
+   "type": "organization",
+   "label": "NASA POWER MERRA-2/CERES (primary)"
+  },
+  {
+   "id": "gistemp",
+   "type": "organization",
+   "label": "GISTEMP v4 (independent)"
+  },
+  {
+   "id": "gpcp",
+   "type": "organization",
+   "label": "GPCP v2.3 (independent)"
+  },
+  {
+   "id": "reg:svalbard",
+   "type": "phrase",
+   "label": "Region svalbard"
+  },
+  {
+   "id": "reg:sahel",
+   "type": "phrase",
+   "label": "Region sahel"
+  },
+  {
+   "id": "reg:amazon",
+   "type": "phrase",
+   "label": "Region amazon"
+  },
+  {
+   "id": "reg:california",
+   "type": "phrase",
+   "label": "Region california"
+  },
+  {
+   "id": "reg:delhi",
+   "type": "phrase",
+   "label": "Region delhi"
+  },
+  {
+   "id": "reg:murray",
+   "type": "phrase",
+   "label": "Region murray"
+  },
+  {
+   "id": "reg:sfbay",
+   "type": "phrase",
+   "label": "Region sfbay"
+  },
+  {
+   "id": "svalbard:T2M",
+   "type": "phrase",
+   "label": "svalbard:T2M verified; +0.679/dec p=1.7e-10; gistemp +0.743 p=1.5e-22"
+  },
+  {
+   "id": "svalbard:T2M_MAX",
+   "type": "phrase",
+   "label": "svalbard:T2M_MAX unverified; +0.315/dec p=4.7e-10"
+  },
+  {
+   "id": "svalbard:PRECTOTCORR",
+   "type": "phrase",
+   "label": "svalbard:PRECTOTCORR unverified; +0.0178/dec p=0.35; gpcp +0.132 p=1.4e-06"
+  },
+  {
+   "id": "svalbard:EVLAND",
+   "type": "phrase",
+   "label": "svalbard:EVLAND unverified; +0.00845/dec p=0.0082"
+  },
+  {
+   "id": "svalbard:GWETROOT",
+   "type": "phrase",
+   "label": "svalbard:GWETROOT unverified; +0.00724/dec p=0.0015"
+  },
+  {
+   "id": "svalbard:RH2M",
+   "type": "phrase",
+   "label": "svalbard:RH2M unverified; -0.416/dec p=3.2e-05"
+  },
+  {
+   "id": "svalbard:QV2M",
+   "type": "phrase",
+   "label": "svalbard:QV2M unverified; +0.122/dec p=2.9e-15"
+  },
+  {
+   "id": "svalbard:WS10M",
+   "type": "phrase",
+   "label": "svalbard:WS10M unverified; -0.0443/dec p=0.1"
+  },
+  {
+   "id": "svalbard:ALLSKY_SFC_SW_DWN",
+   "type": "phrase",
+   "label": "svalbard:ALLSKY_SFC_SW_DWN unverified; -0.0757/dec p=0.17"
+  },
+  {
+   "id": "svalbard:CLOUD_AMT",
+   "type": "phrase",
+   "label": "svalbard:CLOUD_AMT unverified; -0.417/dec p=0.29"
+  },
+  {
+   "id": "svalbard:SNODP",
+   "type": "phrase",
+   "label": "svalbard:SNODP unverified; -4.05/dec p=2.2e-05"
+  },
+  {
+   "id": "sahel:T2M",
+   "type": "phrase",
+   "label": "sahel:T2M verified; +0.124/dec p=0.0086; gistemp +0.231 p=5.4e-16"
+  },
+  {
+   "id": "sahel:T2M_MAX",
+   "type": "phrase",
+   "label": "sahel:T2M_MAX unverified; +0.0596/dec p=0.31"
+  },
+  {
+   "id": "sahel:PRECTOTCORR",
+   "type": "phrase",
+   "label": "sahel:PRECTOTCORR verified; +0.117/dec p=1.5e-05; gpcp +0.112 p=7.8e-06"
+  },
+  {
+   "id": "sahel:EVLAND",
+   "type": "phrase",
+   "label": "sahel:EVLAND unverified; +0.0727/dec p=0.00091"
+  },
+  {
+   "id": "sahel:GWETROOT",
+   "type": "phrase",
+   "label": "sahel:GWETROOT unverified; +0.00831/dec p=0.0019"
+  },
+  {
+   "id": "sahel:RH2M",
+   "type": "phrase",
+   "label": "sahel:RH2M unverified; +0.933/dec p=0.0023"
+  },
+  {
+   "id": "sahel:QV2M",
+   "type": "phrase",
+   "label": "sahel:QV2M unverified; +0.249/dec p=6.8e-07"
+  },
+  {
+   "id": "sahel:WS10M",
+   "type": "phrase",
+   "label": "sahel:WS10M unverified; -0.0443/dec p=7.2e-06"
+  },
+  {
+   "id": "sahel:ALLSKY_SFC_SW_DWN",
+   "type": "phrase",
+   "label": "sahel:ALLSKY_SFC_SW_DWN unverified; -0.199/dec p=0.021"
+  },
+  {
+   "id": "sahel:CLOUD_AMT",
+   "type": "phrase",
+   "label": "sahel:CLOUD_AMT unverified; +2.73/dec p=0.00017"
+  },
+  {
+   "id": "amazon:T2M",
+   "type": "phrase",
+   "label": "amazon:T2M verified; +0.482/dec p=5.6e-09; gistemp +0.266 p=1.8e-18"
+  },
+  {
+   "id": "amazon:T2M_MAX",
+   "type": "phrase",
+   "label": "amazon:T2M_MAX unverified; +0.801/dec p=4.8e-09"
+  },
+  {
+   "id": "amazon:PRECTOTCORR",
+   "type": "phrase",
+   "label": "amazon:PRECTOTCORR verified; -0.574/dec p=5.1e-23; gpcp -0.263 p=4.9e-07"
+  },
+  {
+   "id": "amazon:EVLAND",
+   "type": "phrase",
+   "label": "amazon:EVLAND unverified; -0.27/dec p=5.8e-12"
+  },
+  {
+   "id": "amazon:GWETROOT",
+   "type": "phrase",
+   "label": "amazon:GWETROOT unverified; -0.0286/dec p=3.7e-05"
+  },
+  {
+   "id": "amazon:RH2M",
+   "type": "phrase",
+   "label": "amazon:RH2M unverified; -2.3/dec p=7.1e-07"
+  },
+  {
+   "id": "amazon:QV2M",
+   "type": "phrase",
+   "label": "amazon:QV2M unverified; -0.109/dec p=0.015"
+  },
+  {
+   "id": "amazon:WS10M",
+   "type": "phrase",
+   "label": "amazon:WS10M unverified; +0.00164/dec p=0.21"
+  },
+  {
+   "id": "amazon:ALLSKY_SFC_SW_DWN",
+   "type": "phrase",
+   "label": "amazon:ALLSKY_SFC_SW_DWN unverified; +0.331/dec p=0.00031"
+  },
+  {
+   "id": "amazon:CLOUD_AMT",
+   "type": "phrase",
+   "label": "amazon:CLOUD_AMT unverified; -3.86/dec p=2.5e-06"
+  },
+  {
+   "id": "california:T2M",
+   "type": "phrase",
+   "label": "california:T2M verified; +0.314/dec p=4.9e-07; gistemp +0.245 p=1.1e-06"
+  },
+  {
+   "id": "california:T2M_MAX",
+   "type": "phrase",
+   "label": "california:T2M_MAX unverified; +0.362/dec p=6.4e-05"
+  },
+  {
+   "id": "california:PRECTOTCORR",
+   "type": "phrase",
+   "label": "california:PRECTOTCORR unverified; -0.0434/dec p=0.35; gpcp -0.0357 p=0.38"
+  },
+  {
+   "id": "california:EVLAND",
+   "type": "phrase",
+   "label": "california:EVLAND unverified; -0.0265/dec p=0.46"
+  },
+  {
+   "id": "california:GWETROOT",
+   "type": "phrase",
+   "label": "california:GWETROOT unverified; -0.00329/dec p=0.66"
+  },
+  {
+   "id": "california:RH2M",
+   "type": "phrase",
+   "label": "california:RH2M unverified; -0.2/dec p=0.58"
+  },
+  {
+   "id": "california:QV2M",
+   "type": "phrase",
+   "label": "california:QV2M unverified; +0.0889/dec p=0.0029"
+  },
+  {
+   "id": "california:WS10M",
+   "type": "phrase",
+   "label": "california:WS10M unverified; -0.0202/dec p=0.022"
+  },
+  {
+   "id": "california:ALLSKY_SFC_SW_DWN",
+   "type": "phrase",
+   "label": "california:ALLSKY_SFC_SW_DWN unverified; -0.0656/dec p=0.54"
+  },
+  {
+   "id": "california:CLOUD_AMT",
+   "type": "phrase",
+   "label": "california:CLOUD_AMT unverified; -0.782/dec p=0.3"
+  },
+  {
+   "id": "california:SNODP",
+   "type": "phrase",
+   "label": "california:SNODP unverified; -0.0513/dec p=0.68"
+  },
+  {
+   "id": "delhi:T2M",
+   "type": "phrase",
+   "label": "delhi:T2M contradicted; -0.0993/dec p=0.16; gistemp +0.24 p=2.3e-10"
+  },
+  {
+   "id": "delhi:T2M_MAX",
+   "type": "phrase",
+   "label": "delhi:T2M_MAX unverified; -0.255/dec p=0.0054"
+  },
+  {
+   "id": "delhi:PRECTOTCORR",
+   "type": "phrase",
+   "label": "delhi:PRECTOTCORR unverified; +0.136/dec p=0.0041; gpcp +0.0864 p=0.069"
+  },
+  {
+   "id": "delhi:EVLAND",
+   "type": "phrase",
+   "label": "delhi:EVLAND unverified; +0.094/dec p=0.011"
+  },
+  {
+   "id": "delhi:GWETROOT",
+   "type": "phrase",
+   "label": "delhi:GWETROOT unverified; +0.0114/dec p=0.005"
+  },
+  {
+   "id": "delhi:RH2M",
+   "type": "phrase",
+   "label": "delhi:RH2M unverified; +2.76/dec p=3.5e-06"
+  },
+  {
+   "id": "delhi:QV2M",
+   "type": "phrase",
+   "label": "delhi:QV2M unverified; +0.52/dec p=1.3e-09"
+  },
+  {
+   "id": "delhi:WS10M",
+   "type": "phrase",
+   "label": "delhi:WS10M unverified; -0.0739/dec p=1e-11"
+  },
+  {
+   "id": "delhi:ALLSKY_SFC_SW_DWN",
+   "type": "phrase",
+   "label": "delhi:ALLSKY_SFC_SW_DWN unverified; -0.626/dec p=2.3e-10"
+  },
+  {
+   "id": "delhi:CLOUD_AMT",
+   "type": "phrase",
+   "label": "delhi:CLOUD_AMT unverified; +5.63/dec p=5.6e-13"
+  },
+  {
+   "id": "murray:T2M",
+   "type": "phrase",
+   "label": "murray:T2M verified; +0.24/dec p=0.00017; gistemp +0.26 p=1.8e-10"
+  },
+  {
+   "id": "murray:T2M_MAX",
+   "type": "phrase",
+   "label": "murray:T2M_MAX unverified; +0.21/dec p=0.041"
+  },
+  {
+   "id": "murray:PRECTOTCORR",
+   "type": "phrase",
+   "label": "murray:PRECTOTCORR unverified; -0.00246/dec p=0.94; gpcp +0.00566 p=0.86"
+  },
+  {
+   "id": "murray:EVLAND",
+   "type": "phrase",
+   "label": "murray:EVLAND unverified; +0.000468/dec p=0.99"
+  },
+  {
+   "id": "murray:GWETROOT",
+   "type": "phrase",
+   "label": "murray:GWETROOT unverified; -0.00268/dec p=0.46"
+  },
+  {
+   "id": "murray:RH2M",
+   "type": "phrase",
+   "label": "murray:RH2M unverified; +0.112/dec p=0.83"
+  },
+  {
+   "id": "murray:QV2M",
+   "type": "phrase",
+   "label": "murray:QV2M unverified; +0.148/dec p=0.0048"
+  },
+  {
+   "id": "murray:WS10M",
+   "type": "phrase",
+   "label": "murray:WS10M unverified; -0.0176/dec p=0.068"
+  },
+  {
+   "id": "murray:ALLSKY_SFC_SW_DWN",
+   "type": "phrase",
+   "label": "murray:ALLSKY_SFC_SW_DWN unverified; -0.14/dec p=0.19"
+  },
+  {
+   "id": "murray:CLOUD_AMT",
+   "type": "phrase",
+   "label": "murray:CLOUD_AMT unverified; -0.853/dec p=0.3"
+  },
+  {
+   "id": "sfbay:T2M",
+   "type": "phrase",
+   "label": "sfbay:T2M verified; +0.172/dec p=0.0016; gistemp +0.238 p=2.4e-06"
+  },
+  {
+   "id": "sfbay:T2M_MAX",
+   "type": "phrase",
+   "label": "sfbay:T2M_MAX unverified; +0.3/dec p=0.0019"
+  },
+  {
+   "id": "sfbay:PRECTOTCORR",
+   "type": "phrase",
+   "label": "sfbay:PRECTOTCORR unverified; -0.0597/dec p=0.3; gpcp -0.176 p=0.0091"
+  },
+  {
+   "id": "sfbay:EVLAND",
+   "type": "phrase",
+   "label": "sfbay:EVLAND unverified; -0.0335/dec p=0.42"
+  },
+  {
+   "id": "sfbay:GWETROOT",
+   "type": "phrase",
+   "label": "sfbay:GWETROOT unverified; -0.00342/dec p=0.68"
+  },
+  {
+   "id": "sfbay:RH2M",
+   "type": "phrase",
+   "label": "sfbay:RH2M unverified; +0.148/dec p=0.64"
+  },
+  {
+   "id": "sfbay:QV2M",
+   "type": "phrase",
+   "label": "sfbay:QV2M unverified; +0.0848/dec p=0.0085"
+  },
+  {
+   "id": "sfbay:WS10M",
+   "type": "phrase",
+   "label": "sfbay:WS10M unverified; -0.000421/dec p=0.97"
+  },
+  {
+   "id": "sfbay:ALLSKY_SFC_SW_DWN",
+   "type": "phrase",
+   "label": "sfbay:ALLSKY_SFC_SW_DWN unverified; +0.0615/dec p=0.58"
+  },
+  {
+   "id": "sfbay:CLOUD_AMT",
+   "type": "phrase",
+   "label": "sfbay:CLOUD_AMT unverified; -0.884/dec p=0.3"
+  }
+ ],
+ "edges": [
+  {
+   "source": "svalbard:T2M",
+   "target": "reg:svalbard",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "svalbard:T2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "svalbard:T2M",
+   "target": "gistemp",
+   "label": "CORROBORATED_BY"
+  },
+  {
+   "source": "svalbard:T2M_MAX",
+   "target": "reg:svalbard",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "svalbard:T2M_MAX",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "svalbard:PRECTOTCORR",
+   "target": "reg:svalbard",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "svalbard:PRECTOTCORR",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "svalbard:PRECTOTCORR",
+   "target": "gpcp",
+   "label": "COMPARED_WITH"
+  },
+  {
+   "source": "svalbard:EVLAND",
+   "target": "reg:svalbard",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "svalbard:EVLAND",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "svalbard:GWETROOT",
+   "target": "reg:svalbard",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "svalbard:GWETROOT",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "svalbard:RH2M",
+   "target": "reg:svalbard",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "svalbard:RH2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "svalbard:QV2M",
+   "target": "reg:svalbard",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "svalbard:QV2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "svalbard:WS10M",
+   "target": "reg:svalbard",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "svalbard:WS10M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "svalbard:ALLSKY_SFC_SW_DWN",
+   "target": "reg:svalbard",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "svalbard:ALLSKY_SFC_SW_DWN",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "svalbard:CLOUD_AMT",
+   "target": "reg:svalbard",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "svalbard:CLOUD_AMT",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "svalbard:SNODP",
+   "target": "reg:svalbard",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "svalbard:SNODP",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sahel:T2M",
+   "target": "reg:sahel",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sahel:T2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sahel:T2M",
+   "target": "gistemp",
+   "label": "CORROBORATED_BY"
+  },
+  {
+   "source": "sahel:T2M_MAX",
+   "target": "reg:sahel",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sahel:T2M_MAX",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sahel:PRECTOTCORR",
+   "target": "reg:sahel",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sahel:PRECTOTCORR",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sahel:PRECTOTCORR",
+   "target": "gpcp",
+   "label": "CORROBORATED_BY"
+  },
+  {
+   "source": "sahel:EVLAND",
+   "target": "reg:sahel",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sahel:EVLAND",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sahel:GWETROOT",
+   "target": "reg:sahel",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sahel:GWETROOT",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sahel:RH2M",
+   "target": "reg:sahel",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sahel:RH2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sahel:QV2M",
+   "target": "reg:sahel",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sahel:QV2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sahel:WS10M",
+   "target": "reg:sahel",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sahel:WS10M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sahel:ALLSKY_SFC_SW_DWN",
+   "target": "reg:sahel",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sahel:ALLSKY_SFC_SW_DWN",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sahel:CLOUD_AMT",
+   "target": "reg:sahel",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sahel:CLOUD_AMT",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "amazon:T2M",
+   "target": "reg:amazon",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "amazon:T2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "amazon:T2M",
+   "target": "gistemp",
+   "label": "CORROBORATED_BY"
+  },
+  {
+   "source": "amazon:T2M_MAX",
+   "target": "reg:amazon",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "amazon:T2M_MAX",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "amazon:PRECTOTCORR",
+   "target": "reg:amazon",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "amazon:PRECTOTCORR",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "amazon:PRECTOTCORR",
+   "target": "gpcp",
+   "label": "CORROBORATED_BY"
+  },
+  {
+   "source": "amazon:EVLAND",
+   "target": "reg:amazon",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "amazon:EVLAND",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "amazon:GWETROOT",
+   "target": "reg:amazon",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "amazon:GWETROOT",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "amazon:RH2M",
+   "target": "reg:amazon",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "amazon:RH2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "amazon:QV2M",
+   "target": "reg:amazon",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "amazon:QV2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "amazon:WS10M",
+   "target": "reg:amazon",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "amazon:WS10M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "amazon:ALLSKY_SFC_SW_DWN",
+   "target": "reg:amazon",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "amazon:ALLSKY_SFC_SW_DWN",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "amazon:CLOUD_AMT",
+   "target": "reg:amazon",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "amazon:CLOUD_AMT",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "california:T2M",
+   "target": "reg:california",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "california:T2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "california:T2M",
+   "target": "gistemp",
+   "label": "CORROBORATED_BY"
+  },
+  {
+   "source": "california:T2M_MAX",
+   "target": "reg:california",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "california:T2M_MAX",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "california:PRECTOTCORR",
+   "target": "reg:california",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "california:PRECTOTCORR",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "california:PRECTOTCORR",
+   "target": "gpcp",
+   "label": "COMPARED_WITH"
+  },
+  {
+   "source": "california:EVLAND",
+   "target": "reg:california",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "california:EVLAND",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "california:GWETROOT",
+   "target": "reg:california",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "california:GWETROOT",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "california:RH2M",
+   "target": "reg:california",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "california:RH2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "california:QV2M",
+   "target": "reg:california",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "california:QV2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "california:WS10M",
+   "target": "reg:california",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "california:WS10M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "california:ALLSKY_SFC_SW_DWN",
+   "target": "reg:california",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "california:ALLSKY_SFC_SW_DWN",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "california:CLOUD_AMT",
+   "target": "reg:california",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "california:CLOUD_AMT",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "california:SNODP",
+   "target": "reg:california",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "california:SNODP",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "delhi:T2M",
+   "target": "reg:delhi",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "delhi:T2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "delhi:T2M",
+   "target": "gistemp",
+   "label": "CONTRADICTED_BY"
+  },
+  {
+   "source": "delhi:T2M_MAX",
+   "target": "reg:delhi",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "delhi:T2M_MAX",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "delhi:PRECTOTCORR",
+   "target": "reg:delhi",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "delhi:PRECTOTCORR",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "delhi:PRECTOTCORR",
+   "target": "gpcp",
+   "label": "COMPARED_WITH"
+  },
+  {
+   "source": "delhi:EVLAND",
+   "target": "reg:delhi",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "delhi:EVLAND",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "delhi:GWETROOT",
+   "target": "reg:delhi",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "delhi:GWETROOT",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "delhi:RH2M",
+   "target": "reg:delhi",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "delhi:RH2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "delhi:QV2M",
+   "target": "reg:delhi",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "delhi:QV2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "delhi:WS10M",
+   "target": "reg:delhi",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "delhi:WS10M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "delhi:ALLSKY_SFC_SW_DWN",
+   "target": "reg:delhi",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "delhi:ALLSKY_SFC_SW_DWN",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "delhi:CLOUD_AMT",
+   "target": "reg:delhi",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "delhi:CLOUD_AMT",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "murray:T2M",
+   "target": "reg:murray",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "murray:T2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "murray:T2M",
+   "target": "gistemp",
+   "label": "CORROBORATED_BY"
+  },
+  {
+   "source": "murray:T2M_MAX",
+   "target": "reg:murray",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "murray:T2M_MAX",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "murray:PRECTOTCORR",
+   "target": "reg:murray",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "murray:PRECTOTCORR",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "murray:PRECTOTCORR",
+   "target": "gpcp",
+   "label": "COMPARED_WITH"
+  },
+  {
+   "source": "murray:EVLAND",
+   "target": "reg:murray",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "murray:EVLAND",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "murray:GWETROOT",
+   "target": "reg:murray",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "murray:GWETROOT",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "murray:RH2M",
+   "target": "reg:murray",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "murray:RH2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "murray:QV2M",
+   "target": "reg:murray",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "murray:QV2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "murray:WS10M",
+   "target": "reg:murray",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "murray:WS10M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "murray:ALLSKY_SFC_SW_DWN",
+   "target": "reg:murray",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "murray:ALLSKY_SFC_SW_DWN",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "murray:CLOUD_AMT",
+   "target": "reg:murray",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "murray:CLOUD_AMT",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sfbay:T2M",
+   "target": "reg:sfbay",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sfbay:T2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sfbay:T2M",
+   "target": "gistemp",
+   "label": "CORROBORATED_BY"
+  },
+  {
+   "source": "sfbay:T2M_MAX",
+   "target": "reg:sfbay",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sfbay:T2M_MAX",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sfbay:PRECTOTCORR",
+   "target": "reg:sfbay",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sfbay:PRECTOTCORR",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sfbay:PRECTOTCORR",
+   "target": "gpcp",
+   "label": "COMPARED_WITH"
+  },
+  {
+   "source": "sfbay:EVLAND",
+   "target": "reg:sfbay",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sfbay:EVLAND",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sfbay:GWETROOT",
+   "target": "reg:sfbay",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sfbay:GWETROOT",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sfbay:RH2M",
+   "target": "reg:sfbay",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sfbay:RH2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sfbay:QV2M",
+   "target": "reg:sfbay",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sfbay:QV2M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sfbay:WS10M",
+   "target": "reg:sfbay",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sfbay:WS10M",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sfbay:ALLSKY_SFC_SW_DWN",
+   "target": "reg:sfbay",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sfbay:ALLSKY_SFC_SW_DWN",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  },
+  {
+   "source": "sfbay:CLOUD_AMT",
+   "target": "reg:sfbay",
+   "label": "IN_REGION"
+  },
+  {
+   "source": "sfbay:CLOUD_AMT",
+   "target": "merra2",
+   "label": "MEASURED_BY"
+  }
+ ]
+}

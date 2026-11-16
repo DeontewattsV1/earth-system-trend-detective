@@ -1,0 +1,12 @@
+{
+ "mode": "local",
+ "wall_seconds": 19.9,
+ "costs_usd": 0.0042808,
+ "sources": [],
+ "models": {
+  "FAST_LLM": "openai:gpt-4.1-mini",
+  "SMART_LLM": "openai:gpt-4.1-mini",
+  "STRATEGIC_LLM": "openai:gpt-4.1-mini",
+  "EMBEDDING": "openai:text-embedding-3-small"
+ }
+}

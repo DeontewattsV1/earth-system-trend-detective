@@ -1,0 +1,110 @@
+{
+ "scores": {
+  "openplanter": {
+   "claims": 71,
+   "correct": 55,
+   "wrong": 9,
+   "unverifiable": 7,
+   "numeric_checked": 35,
+   "numeric_wrong": 7,
+   "robust_recall": "8/8",
+   "robust_false": [
+    "murray:PRECTOTCORR",
+    "sfbay:PRECTOTCORR"
+   ],
+   "delhi_contradiction_flagged": true,
+   "multiple_testing_mentioned": false,
+   "explicit_row_id_citations": 30,
+   "words": 590
+  },
+  "openplanter_obs60k": {
+   "claims": 27,
+   "correct": 25,
+   "wrong": 1,
+   "unverifiable": 1,
+   "numeric_checked": 21,
+   "numeric_wrong": 1,
+   "robust_recall": "0/8",
+   "robust_false": [],
+   "delhi_contradiction_flagged": true,
+   "multiple_testing_mentioned": false,
+   "explicit_row_id_citations": 9,
+   "words": 934
+  },
+  "gptr_local": {
+   "claims": 16,
+   "correct": 11,
+   "wrong": 0,
+   "unverifiable": 5,
+   "numeric_checked": 9,
+   "numeric_wrong": 0,
+   "robust_recall": "1/8",
+   "robust_false": [],
+   "delhi_contradiction_flagged": false,
+   "multiple_testing_mentioned": false,
+   "explicit_row_id_citations": 0,
+   "words": 1052
+  },
+  "gptr_openaleph": {
+   "claims": 15,
+   "correct": 7,
+   "wrong": 0,
+   "unverifiable": 8,
+   "numeric_checked": 6,
+   "numeric_wrong": 0,
+   "robust_recall": "1/8",
+   "robust_false": [],
+   "delhi_contradiction_flagged": false,
+   "multiple_testing_mentioned": true,
+   "explicit_row_id_citations": 0,
+   "words": 1027
+  },
+  "flowsint_A_select_all": {
+   "claims": 25,
+   "correct": 24,
+   "wrong": 0,
+   "unverifiable": 1,
+   "numeric_checked": 24,
+   "numeric_wrong": 0,
+   "robust_recall": "3/8",
+   "robust_false": [],
+   "delhi_contradiction_flagged": false,
+   "multiple_testing_mentioned": false,
+   "explicit_row_id_citations": 9,
+   "words": 523
+  },
+  "flowsint_B_selected": {
+   "claims": 43,
+   "correct": 40,
+   "wrong": 0,
+   "unverifiable": 3,
+   "numeric_checked": 32,
+   "numeric_wrong": 0,
+   "robust_recall": "7/8",
+   "robust_false": [],
+   "delhi_contradiction_flagged": true,
+   "multiple_testing_mentioned": false,
+   "explicit_row_id_citations": 8,
+   "words": 594
+  },
+  "gptr_web": {
+   "claims": 0,
+   "correct": 0,
+   "wrong": 0,
+   "unverifiable": 0,
+   "numeric_checked": 0,
+   "numeric_wrong": 0,
+   "robust_recall": "0/8",
+   "robust_false": [],
+   "delhi_contradiction_flagged": false,
+   "multiple_testing_mentioned": false,
+   "explicit_row_id_citations": 1,
+   "words": 115
+  }
+ },
+ "extraction_usage": {
+  "prompt_tokens": 11684,
+  "completion_tokens": 13021
+ },
+ "extraction_cost_usd": 0.0255
+}

@@ -1,0 +1,252 @@
+[
+ {
+  "text": "The mean temperature in Svalbard shows a significant increase of +0.679\u00b0C per decade.",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.679,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=0.6793"
+ },
+ {
+  "text": "p = 1.7e-10",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 1.7e-10,
+  "asserted": "primary_significant",
+  "check": "correct",
+  "why": "ledger p_ttest=1.672e-10"
+ },
+ {
+  "text": "GISTEMP v4, which shows a similar trend with +0.743\u00b0C per decade",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": 0.743,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=0.7434"
+ },
+ {
+  "text": "p = 1.5e-22",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 1.5e-22,
+  "asserted": "corroboration_significant",
+  "check": "correct",
+  "why": "ledger corr_p_ttest=1.509e-22"
+ },
+ {
+  "text": "The Sahel had a verified increase of +0.124\u00b0C per decade.",
+  "row_id": "sahel:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.124,
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "ledger slope_decade=0.124"
+ },
+ {
+  "text": "p = 0.0086",
+  "row_id": "sahel:T2M",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 0.0086,
+  "asserted": "primary_significant",
+  "check": "correct",
+  "why": "ledger p_ttest=0.008561"
+ },
+ {
+  "text": "GISTEMP v4, indicating +0.231\u00b0C",
+  "row_id": "sahel:T2M",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": 0.231,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=0.2306"
+ },
+ {
+  "text": "p = 5.4e-16",
+  "row_id": "sahel:T2M",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 5.4e-16,
+  "asserted": "corroboration_significant",
+  "check": "correct",
+  "why": "ledger corr_p_ttest=5.369e-16"
+ },
+ {
+  "text": "The precipitation in the Amazon region has decreased significantly by -0.574 mm/day per decade.",
+  "row_id": "amazon:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -0.574,
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "ledger slope_decade=-0.5743"
+ },
+ {
+  "text": "p = 5.1e-23",
+  "row_id": "amazon:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 5.1e-23,
+  "asserted": "primary_significant",
+  "check": "correct",
+  "why": "ledger p_ttest=5.103e-23"
+ },
+ {
+  "text": "GPCP v2.3 corroborates this with a decrease of -0.263",
+  "row_id": "amazon:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": -0.263,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=-0.2629"
+ },
+ {
+  "text": "p = 4.9e-07",
+  "row_id": "amazon:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 4.9e-07,
+  "asserted": "corroboration_significant",
+  "check": "correct",
+  "why": "ledger corr_p_ttest=4.869e-07"
+ },
+ {
+  "text": "California shows an increase in temperature of +0.314\u00b0C per decade.",
+  "row_id": "california:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.314,
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "ledger slope_decade=0.3142"
+ },
+ {
+  "text": "p = 4.9e-07",
+  "row_id": "california:T2M",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 4.9e-07,
+  "asserted": "primary_significant",
+  "check": "correct",
+  "why": "ledger p_ttest=4.88e-07"
+ },
+ {
+  "text": "GISTEMP v4's increase of +0.245\u00b0C",
+  "row_id": "california:T2M",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": 0.245,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=0.245"
+ },
+ {
+  "text": "p = 1.1e-06",
+  "row_id": "california:T2M",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 1.1e-06,
+  "asserted": "corroboration_significant",
+  "check": "correct",
+  "why": "ledger corr_p_ttest=1.095e-06"
+ },
+ {
+  "text": "A marginal increase of +0.0178 mm/day per decade.",
+  "row_id": "svalbard:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.0178,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=0.01776"
+ },
+ {
+  "text": "p = 0.35 (not significant).",
+  "row_id": "svalbard:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 0.35,
+  "asserted": "chance_or_artifact",
+  "check": "correct",
+  "why": "ledger p_ttest=0.3489"
+ },
+ {
+  "text": "An increase of +0.315\u00b0C per decade.",
+  "row_id": "svalbard:T2M_MAX",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.315,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=0.3148"
+ },
+ {
+  "text": "p = 4.7e-10 suggests some significance, but this trend remains unverified",
+  "row_id": "svalbard:T2M_MAX",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 4.7e-10,
+  "asserted": "primary_suggestive",
+  "check": "correct",
+  "why": "ledger p_ttest=4.662e-10"
+ },
+ {
+  "text": "A decrease of -0.27 mm/day per decade.",
+  "row_id": "amazon:EVLAND",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -0.27,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=-0.2703"
+ },
+ {
+  "text": "p = 5.8e-12 is significant, but the unverified status raises questions",
+  "row_id": "amazon:EVLAND",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 5.8e-12,
+  "asserted": "primary_suggestive",
+  "check": "correct",
+  "why": "ledger p_ttest=5.815e-12"
+ },
+ {
+  "text": "Unverified trends such as svalbard:T2M_MAX, svalbard:SNODP, and amazon:GWETROOT may have substantial implications despite being categorized as unverified.",
+  "row_id": null,
+  "kind": "other",
+  "field": null,
+  "value": null,
+  "asserted": null,
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "The svalbard:SNODP decrease of -4.05 per decade (p = 2.2e-05)",
+  "row_id": "svalbard:SNODP",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -4.05,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=-4.051"
+ },
+ {
+  "text": "p = 2.2e-05",
+  "row_id": "svalbard:SNODP",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 2.2e-05,
+  "asserted": "primary_significant",
+  "check": "correct",
+  "why": "ledger p_ttest=2.246e-05"
+ }
+]

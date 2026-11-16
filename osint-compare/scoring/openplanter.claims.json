@@ -1,0 +1,599 @@
+[
+ {
+  "text": "Air temperature (2 m) increased by +0.6793 \u00b0C/decade (1981-2025)",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.6793,
+  "check": "correct",
+  "why": "ledger slope_decade=0.6793"
+ },
+ {
+  "text": "Primary p-values extremely significant (p_ttest=1.67e-10)",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 1.67e-10,
+  "check": "correct",
+  "why": "ledger p_ttest=1.672e-10"
+ },
+ {
+  "text": "Primary p-values extremely significant (p_mk=4.17e-30)",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "p_mk",
+  "value": 4.17e-30,
+  "check": "correct",
+  "why": "ledger p_mk=4.175e-30"
+ },
+ {
+  "text": "Corroborated by independent NASA GISTEMP product with similar slope (+0.7434 \u00b0C/decade)",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": 0.7434,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=0.7434"
+ },
+ {
+  "text": "Corroborated by independent NASA GISTEMP product with significance (p=1.5e-22)",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 1.5e-22,
+  "check": "correct",
+  "why": "ledger corr_p_ttest=1.509e-22"
+ },
+ {
+  "text": "Anomaly correlation 0.8605 indicates strong agreement",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "anomaly_correlation",
+  "value": 0.8605,
+  "check": "correct",
+  "why": "ledger anomaly_correlation=0.8605"
+ },
+ {
+  "text": "Air temperature (2 m) increased by +0.6793 \u00b0C/decade (1981-2025)",
+  "row_id": "svalbard:T2M",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Daily max temperature increase +0.315 \u00b0C/decade",
+  "row_id": "svalbard:T2M_MAX",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.315,
+  "check": "correct",
+  "why": "ledger slope_decade=0.3148"
+ },
+ {
+  "text": "Daily max temperature increase +0.315 \u00b0C/decade",
+  "row_id": "svalbard:T2M_MAX",
+  "kind": "status",
+  "asserted": "chance_or_artifact",
+  "check": "unverifiable",
+  "why": "status=unverified, primary=significant: ledger does not say chance/artifact"
+ },
+ {
+  "text": "Precipitation bias-corrected +0.0178 mm/day/decade not significant in primary but significant in GPCP satellite product",
+  "row_id": "svalbard:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.0178,
+  "check": "correct",
+  "why": "ledger slope_decade=0.01776"
+ },
+ {
+  "text": "Precipitation bias-corrected +0.0178 mm/day/decade not significant in primary but significant in GPCP satellite product",
+  "row_id": "svalbard:PRECTOTCORR",
+  "kind": "status",
+  "asserted": "chance_or_artifact",
+  "check": "correct",
+  "why": "status=unverified, primary=not significant"
+ },
+ {
+  "text": "Evaporation from land +0.00845 mm/day/decade, suggestive but unverified",
+  "row_id": "svalbard:EVLAND",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.00845,
+  "check": "correct",
+  "why": "ledger slope_decade=0.008448"
+ },
+ {
+  "text": "Evaporation from land +0.00845 mm/day/decade, suggestive but unverified",
+  "row_id": "svalbard:EVLAND",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Root-zone soil wetness +0.00724 1/decade, significant but unverified",
+  "row_id": "svalbard:GWETROOT",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.00724,
+  "check": "correct",
+  "why": "ledger slope_decade=0.007242"
+ },
+ {
+  "text": "Root-zone soil wetness +0.00724 1/decade, significant but unverified",
+  "row_id": "svalbard:GWETROOT",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Relative humidity decreased -0.416 %/decade, significant but unverified",
+  "row_id": "svalbard:RH2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -0.416,
+  "check": "correct",
+  "why": "ledger slope_decade=-0.4161"
+ },
+ {
+  "text": "Relative humidity decreased -0.416 %/decade, significant but unverified",
+  "row_id": "svalbard:RH2M",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Specific humidity increased +0.122 g/kg/decade, significant but unverified",
+  "row_id": "svalbard:QV2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.122,
+  "check": "correct",
+  "why": "ledger slope_decade=0.1222"
+ },
+ {
+  "text": "Specific humidity increased +0.122 g/kg/decade, significant but unverified",
+  "row_id": "svalbard:QV2M",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Air temperature increased +0.124 \u00b0C/decade (1981-2025)",
+  "row_id": "sahel:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.124,
+  "check": "correct",
+  "why": "ledger slope_decade=0.124"
+ },
+ {
+  "text": "Air temperature increased +0.124 \u00b0C/decade (1981-2025)",
+  "row_id": "sahel:T2M",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Precipitation bias-corrected increased +0.117 mm/day/decade",
+  "row_id": "sahel:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.117,
+  "check": "correct",
+  "why": "ledger slope_decade=0.1175"
+ },
+ {
+  "text": "Precipitation bias-corrected increased +0.117 mm/day/decade",
+  "row_id": "sahel:PRECTOTCORR",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Evaporation from land +0.0727 mm/day/decade",
+  "row_id": "sahel:EVLAND",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.0727,
+  "check": "correct",
+  "why": "ledger slope_decade=0.07269"
+ },
+ {
+  "text": "Evaporation from land +0.0727 mm/day/decade",
+  "row_id": "sahel:EVLAND",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Root-zone soil wetness +0.00831 1/decade",
+  "row_id": "sahel:GWETROOT",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.00831,
+  "check": "correct",
+  "why": "ledger slope_decade=0.008306"
+ },
+ {
+  "text": "Root-zone soil wetness +0.00831 1/decade",
+  "row_id": "sahel:GWETROOT",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Relative humidity +0.933 %/decade",
+  "row_id": "sahel:RH2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.933,
+  "check": "correct",
+  "why": "ledger slope_decade=0.9331"
+ },
+ {
+  "text": "Relative humidity +0.933 %/decade",
+  "row_id": "sahel:RH2M",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Specific humidity +0.249 g/kg/decade",
+  "row_id": "sahel:QV2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.249,
+  "check": "correct",
+  "why": "ledger slope_decade=0.2488"
+ },
+ {
+  "text": "Specific humidity +0.249 g/kg/decade",
+  "row_id": "sahel:QV2M",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Wind speed decreased -0.0443 m/s/decade",
+  "row_id": "sahel:WS10M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -0.0443,
+  "check": "correct",
+  "why": "ledger slope_decade=-0.04428"
+ },
+ {
+  "text": "Wind speed decreased -0.0443 m/s/decade",
+  "row_id": "sahel:WS10M",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Sunlight decreased -0.199 MJ/m^2/day/decade",
+  "row_id": "sahel:ALLSKY_SFC_SW_DWN",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -0.199,
+  "check": "correct",
+  "why": "ledger slope_decade=-0.1994"
+ },
+ {
+  "text": "Sunlight decreased -0.199 MJ/m^2/day/decade",
+  "row_id": "sahel:ALLSKY_SFC_SW_DWN",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Air temperature increased +0.482 \u00b0C/decade",
+  "row_id": "amazon:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.482,
+  "check": "correct",
+  "why": "ledger slope_decade=0.482"
+ },
+ {
+  "text": "Air temperature increased +0.482 \u00b0C/decade",
+  "row_id": "amazon:T2M",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Precipitation decreased -0.574 mm/day/decade",
+  "row_id": "amazon:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -0.574,
+  "check": "correct",
+  "why": "ledger slope_decade=-0.5743"
+ },
+ {
+  "text": "Precipitation decreased -0.574 mm/day/decade",
+  "row_id": "amazon:PRECTOTCORR",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Root-zone soil wetness decreased -0.0286 1/decade",
+  "row_id": "amazon:GWETROOT",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -0.0286,
+  "check": "correct",
+  "why": "ledger slope_decade=-0.02856"
+ },
+ {
+  "text": "Root-zone soil wetness decreased -0.0286 1/decade",
+  "row_id": "amazon:GWETROOT",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Cloud amount decreased -3.86 %/decade",
+  "row_id": "amazon:CLOUD_AMT",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -3.86,
+  "check": "correct",
+  "why": "ledger slope_decade=-3.855"
+ },
+ {
+  "text": "Cloud amount decreased -3.86 %/decade",
+  "row_id": "amazon:CLOUD_AMT",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Air temperature increased +0.314 \u00b0C/decade",
+  "row_id": "california:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.314,
+  "check": "correct",
+  "why": "ledger slope_decade=0.3142"
+ },
+ {
+  "text": "Air temperature increased +0.314 \u00b0C/decade",
+  "row_id": "california:T2M",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Precipitation decreased -0.0434 mm/day/decade",
+  "row_id": "california:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -0.0434,
+  "check": "correct",
+  "why": "ledger slope_decade=-0.04343"
+ },
+ {
+  "text": "Precipitation decreased -0.0434 mm/day/decade",
+  "row_id": "california:PRECTOTCORR",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Air temperature decreased -0.0993 \u00b0C/decade",
+  "row_id": "delhi:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -0.0993,
+  "check": "correct",
+  "why": "ledger slope_decade=-0.09931"
+ },
+ {
+  "text": "Air temperature decreased -0.0993 \u00b0C/decade",
+  "row_id": "delhi:T2M",
+  "kind": "status",
+  "asserted": "contradicted",
+  "check": "correct",
+  "why": "status=contradicted"
+ },
+ {
+  "text": "Precipitation increased +0.136 mm/day/decade",
+  "row_id": "delhi:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.136,
+  "check": "correct",
+  "why": "ledger slope_decade=0.1357"
+ },
+ {
+  "text": "Precipitation increased +0.136 mm/day/decade",
+  "row_id": "delhi:PRECTOTCORR",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Relative humidity increased +0.933 %/decade",
+  "row_id": "delhi:RH2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.933,
+  "check": "wrong",
+  "why": "ledger slope_decade=2.764"
+ },
+ {
+  "text": "Relative humidity increased +0.933 %/decade",
+  "row_id": "delhi:RH2M",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Sunlight decreased -0.199 MJ/m^2/day/decade",
+  "row_id": "delhi:ALLSKY_SFC_SW_DWN",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -0.199,
+  "check": "wrong",
+  "why": "ledger slope_decade=-0.6256"
+ },
+ {
+  "text": "Sunlight decreased -0.199 MJ/m^2/day/decade",
+  "row_id": "delhi:ALLSKY_SFC_SW_DWN",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Air temperature increased +0.214 \u00b0C/decade",
+  "row_id": "murray:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.214,
+  "check": "wrong",
+  "why": "ledger slope_decade=0.2403"
+ },
+ {
+  "text": "Air temperature increased +0.214 \u00b0C/decade",
+  "row_id": "murray:T2M",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Precipitation decreased -0.034 mm/day/decade",
+  "row_id": "murray:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -0.034,
+  "check": "wrong",
+  "why": "ledger slope_decade=-0.002465"
+ },
+ {
+  "text": "Precipitation decreased -0.034 mm/day/decade",
+  "row_id": "murray:PRECTOTCORR",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "wrong",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Root-zone soil wetness decreased -0.004 1/decade",
+  "row_id": "murray:GWETROOT",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -0.004,
+  "check": "wrong",
+  "why": "ledger slope_decade=-0.002677"
+ },
+ {
+  "text": "Root-zone soil wetness decreased -0.004 1/decade",
+  "row_id": "murray:GWETROOT",
+  "kind": "status",
+  "asserted": "unverified",
+  "check": "correct",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Air temperature increased +0.254 \u00b0C/decade",
+  "row_id": "sfbay:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.254,
+  "check": "wrong",
+  "why": "ledger slope_decade=0.1721"
+ },
+ {
+  "text": "Air temperature increased +0.254 \u00b0C/decade",
+  "row_id": "sfbay:T2M",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Precipitation decreased -0.034 mm/day/decade",
+  "row_id": "sfbay:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -0.034,
+  "check": "wrong",
+  "why": "ledger slope_decade=-0.05966"
+ },
+ {
+  "text": "Precipitation decreased -0.034 mm/day/decade",
+  "row_id": "sfbay:PRECTOTCORR",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "wrong",
+  "why": "status=unverified"
+ },
+ {
+  "text": "Robust trends are those marked \"verified\" in the ledger, meaning the primary trend is statistically significant (p<0.01) and corroborated by an independent NASA product (e.g. GISTEMP for temperature, GPCP for precipitation).",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "Unverified trends are significant in the primary source but lack independent corroboration or have contradictory evidence.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "Contradicted trends have conflicting evidence from independent NASA products.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "The ledger rows (e.g. svalbard:T2M) provide numeric slope estimates, p-values, and corroboration status.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "The evidence_graph.json links findings to NASA products and their verification status.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "Results.json contains detailed statistics including confidence intervals and p-values supporting the verdicts.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ }
+]

@@ -1,0 +1,407 @@
+[
+ {
+  "text": "Trend: +0.679\u00b0C per decade",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.679,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=0.6793"
+ },
+ {
+  "text": "Significance: p = 1.7e-10",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 1.7e-10,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger p_ttest=1.672e-10"
+ },
+ {
+  "text": "GISTEMP shows +0.743\u00b0C per decade (p = 1.5e-22)",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": 0.743,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=0.7434"
+ },
+ {
+  "text": "GISTEMP shows +0.743\u00b0C per decade (p = 1.5e-22)",
+  "row_id": "svalbard:T2M",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 1.5e-22,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_p_ttest=1.509e-22"
+ },
+ {
+  "text": "This trend is very robust",
+  "row_id": "svalbard:T2M",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Trend: +0.124\u00b0C per decade",
+  "row_id": "sahel:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.124,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=0.124"
+ },
+ {
+  "text": "Significance: p = 0.0086",
+  "row_id": "sahel:T2M",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 0.0086,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger p_ttest=0.008561"
+ },
+ {
+  "text": "GISTEMP data shows +0.231\u00b0C per decade (p = 5.4e-16)",
+  "row_id": "sahel:T2M",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": 0.231,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=0.2306"
+ },
+ {
+  "text": "GISTEMP data shows +0.231\u00b0C per decade (p = 5.4e-16)",
+  "row_id": "sahel:T2M",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 5.4e-16,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_p_ttest=5.369e-16"
+ },
+ {
+  "text": "This trend is corroborated and significant",
+  "row_id": "sahel:T2M",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Trend: +0.482\u00b0C per decade",
+  "row_id": "amazon:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.482,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=0.482"
+ },
+ {
+  "text": "Significance: p = 5.6e-09",
+  "row_id": "amazon:T2M",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 5.6e-09,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger p_ttest=5.605e-09"
+ },
+ {
+  "text": "GISTEMP shows +0.266\u00b0C per decade (p = 1.8e-18)",
+  "row_id": "amazon:T2M",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": 0.266,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=0.2664"
+ },
+ {
+  "text": "GISTEMP shows +0.266\u00b0C per decade (p = 1.8e-18)",
+  "row_id": "amazon:T2M",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 1.8e-18,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_p_ttest=1.814e-18"
+ },
+ {
+  "text": "The increase in temperature is significant and well supported",
+  "row_id": "amazon:T2M",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Trend: +0.117 mm per decade",
+  "row_id": "sahel:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.117,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=0.1175"
+ },
+ {
+  "text": "Significance: p = 1.5e-05",
+  "row_id": "sahel:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 1.5e-05,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger p_ttest=1.479e-05"
+ },
+ {
+  "text": "GPCP shows a similar trend of +0.112 mm per decade (p = 7.8e-06)",
+  "row_id": "sahel:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": 0.112,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=0.1121"
+ },
+ {
+  "text": "GPCP shows a similar trend of +0.112 mm per decade (p = 7.8e-06)",
+  "row_id": "sahel:PRECTOTCORR",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 7.8e-06,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_p_ttest=7.773e-06"
+ },
+ {
+  "text": "This precipitation trend is statistically significant and corroborated",
+  "row_id": "sahel:PRECTOTCORR",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Trend: +0.314\u00b0C per decade",
+  "row_id": "california:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.314,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=0.3142"
+ },
+ {
+  "text": "Significance: p = 4.9e-07",
+  "row_id": "california:T2M",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 4.9e-07,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger p_ttest=4.88e-07"
+ },
+ {
+  "text": "GISTEMP reporting +0.245\u00b0C per decade (p = 1.1e-06)",
+  "row_id": "california:T2M",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": 0.245,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=0.245"
+ },
+ {
+  "text": "GISTEMP reporting +0.245\u00b0C per decade (p = 1.1e-06)",
+  "row_id": "california:T2M",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 1.1e-06,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_p_ttest=1.095e-06"
+ },
+ {
+  "text": "This trend is also robust",
+  "row_id": "california:T2M",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Trend: +0.240\u00b0C per decade",
+  "row_id": "murray:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.24,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=0.2403"
+ },
+ {
+  "text": "Significance: p = 0.00017",
+  "row_id": "murray:T2M",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 0.00017,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger p_ttest=0.0001654"
+ },
+ {
+  "text": "GISTEMP indicates +0.260\u00b0C per decade (p = 1.8e-10)",
+  "row_id": "murray:T2M",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": 0.26,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=0.2597"
+ },
+ {
+  "text": "GISTEMP indicates +0.260\u00b0C per decade (p = 1.8e-10)",
+  "row_id": "murray:T2M",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 1.8e-10,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_p_ttest=1.839e-10"
+ },
+ {
+  "text": "This trend is statistically significant and supported",
+  "row_id": "murray:T2M",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Trend: +0.172\u00b0C per decade",
+  "row_id": "sfbay:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": 0.172,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=0.1721"
+ },
+ {
+  "text": "Significance: p = 0.0016",
+  "row_id": "sfbay:T2M",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 0.0016,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger p_ttest=0.001627"
+ },
+ {
+  "text": "GISTEMP data shows +0.238\u00b0C per decade (p = 2.4e-06)",
+  "row_id": "sfbay:T2M",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": 0.238,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=0.2382"
+ },
+ {
+  "text": "GISTEMP data shows +0.238\u00b0C per decade (p = 2.4e-06)",
+  "row_id": "sfbay:T2M",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 2.4e-06,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_p_ttest=2.372e-06"
+ },
+ {
+  "text": "This trend is significant and corroborated",
+  "row_id": "sfbay:T2M",
+  "kind": "status",
+  "asserted": "verified_robust",
+  "check": "correct",
+  "why": "status=verified"
+ },
+ {
+  "text": "Trend: -0.0993\u00b0C per decade",
+  "row_id": "delhi:T2M",
+  "kind": "numeric",
+  "field": "slope_decade",
+  "value": -0.0993,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger slope_decade=-0.09931"
+ },
+ {
+  "text": "Significance: p = 0.16 (not significant)",
+  "row_id": "delhi:T2M",
+  "kind": "numeric",
+  "field": "p_ttest",
+  "value": 0.16,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger p_ttest=0.1625"
+ },
+ {
+  "text": "GISTEMP shows +0.240\u00b0C per decade (p = 2.3e-10)",
+  "row_id": "delhi:T2M",
+  "kind": "numeric",
+  "field": "corr_slope_decade",
+  "value": 0.24,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_slope_decade=0.2401"
+ },
+ {
+  "text": "GISTEMP shows +0.240\u00b0C per decade (p = 2.3e-10)",
+  "row_id": "delhi:T2M",
+  "kind": "numeric",
+  "field": "corr_p_ttest",
+  "value": 2.3e-10,
+  "asserted": null,
+  "check": "correct",
+  "why": "ledger corr_p_ttest=2.299e-10"
+ },
+ {
+  "text": "The negative trend is not statistically significant and is contradicted by GISTEMP\u2019s substantial positive trend",
+  "row_id": "delhi:T2M",
+  "kind": "status",
+  "asserted": "contradicted",
+  "check": "correct",
+  "why": "status=contradicted"
+ },
+ {
+  "text": "In analyzing the provided evidence ledger for regional Earth-system trends, we can categorize findings into robust trends (those that are significant and corroborated by independent assessments) and those likely to be results of chance or artifacts.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "The intention here is to provide a clear pathway for users to understand the evidence and suggest potential next steps for further investigation.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ },
+ {
+  "text": "For users seeking to explore these trends further, they should consider the following steps: Deep Dive into Methodologies, Temporal Analysis, Spatial Analysis, Overlap of Data Sources, More Comprehensive Climate Models.",
+  "row_id": null,
+  "kind": "other",
+  "check": "unverifiable",
+  "why": "not tied to a ledger row"
+ }
+]
