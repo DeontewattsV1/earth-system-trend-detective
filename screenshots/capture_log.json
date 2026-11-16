@@ -1,0 +1,25 @@
+{
+ "04_demo2_amazon": {
+  "status": "verified",
+  "slope": -0.5742945016958227,
+  "verdict": "significant"
+ },
+ "05_demo3_delhi": {
+  "status": "contradicted",
+  "slope": -0.09930641463105175,
+  "verdict": "suggestive"
+ },
+ "06_demo4_sfbay": {
+  "status": "unverified",
+  "slope": 0.010586732561070717,
+  "verdict": "not significant"
+ },
+ "upload": {
+  "msg": "Loaded power_colorado_plateau_T2M.json: T2M, 540 months, 63 grid points.",
+  "slope": 0.4086390580315531,
+  "verdict": "significant",
+  "p": 4.2134430177371474e-10
+ },
+ "mobile_scrollWidth": 390,
+ "errors": []
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "status": "disclosed-ai-assistance",
+  "project": "Earth System Trend Detective",
+  "team": "Frontier Intelligence Lab",
+  "affiliation": "GoodShyt Group Inc.",
+  "review_date_local": "2026-11-15",
+  "source_data": "NASA POWER/GISTEMP/GPCP, not synthetic",
+  "ai_assistance": {
+    "software_implementation": true,
+    "documentation": true,
+    "presentation": true,
+    "data_generation": false,
+    "concept_origination": "user confirmation required; AI contributed to project direction"
+  },
+  "review_provenance": "AI-assisted review of user-supplied files; no external registration or submission performed",
+  "license_notice": "Third-party scientific data and original code have independent licensing/usage terms; not independently legally reviewed"
+}

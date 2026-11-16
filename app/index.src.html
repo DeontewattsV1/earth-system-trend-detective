@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Earth System Trend Detective</title>
+<meta name="ai-assistance" content="AI-assisted development, documentation and presentation. NASA data are external observations/model products; see AI_DISCLOSURE.md." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>/*CSS*/</style>
+</head>
+<body>
+<header class="top">
+  <div>
+    <div class="lab">Frontier Intelligence Lab · NASA Space Apps challenge</div>
+    <h1>Earth System Trend Detective</h1>
+    <p>Pick a NASA variable and a region, see how it changed since 1981, and test whether the change is statistically significant. Then check the claim against an independent NASA product.</p>
+  </div>
+  <div class="snapshot" id="snap"></div>
+</header>
+<main>
+  <section class="board">
+    <div class="panel controls" aria-label="Choose what, where and when">
+      <div>
+        <h2><span class="step">1</span>What do you want to investigate?</h2>
+        <div id="vars"></div>
+        <div class="vardef" id="vardef"></div>
+      </div>
+      <div>
+        <h2><span class="step">3</span>When?</h2>
+        <div class="years">
+          <label for="ystart">From year<select id="ystart"></select></label>
+          <label for="yend">To year<select id="yend"></select></label>
+        </div>
+        <p class="small muted">Sunlight and cloud use 2001–2025 (the CERES era) to avoid a change of satellite source in 2001.</p>
+      </div>
+    </div>
+    <div class="panel" aria-label="Choose a region">
+      <h2><span class="step">2</span>Where?</h2>
+      <div class="mapwrap"><svg class="map" id="map" viewBox="0 0 720 360" role="img" aria-label="World map with study regions"></svg></div>
+      <div id="leads" style="margin:10px 0"></div>
+      <div class="regions" id="regions"></div>
+    </div>
+  </section>
+
+  <section class="case" id="case">
+    <div class="panel">
+      <div class="chart-head">
+        <h2><span class="step">4</span>How did it change?</h2>
+        <div class="seg" id="mode" role="group" aria-label="Chart view">
+          <button data-mode="anom" aria-pressed="true">Seasonal cycle removed</button>
+          <button data-mode="raw" aria-pressed="false">Monthly values</button>
+          <button data-mode="annual" aria-pressed="false">Annual means</button>
+        </div>
+      </div>
+      <div class="chartbox"><svg class="chart" id="chart" viewBox="0 0 900 380" role="img" aria-label="Time series with trend line"></svg></div>
+    </div>
+    <div class="panel verdict" id="verdict" aria-live="polite"></div>
+  </section>
+
+  <section class="lower">
+    <div class="panel">
+      <h2><span class="step">5</span>Is the claim corroborated?</h2>
+      <div class="ledger" id="ledger"></div>
+    </div>
+    <div class="panel">
+      <h2>Where is it changing?</h2>
+      <p class="small muted" style="margin:0 0 8px">Every region × variable, tested over the years selected above. Click a cell to open that case.</p>
+      <div class="matrix" id="matrix"></div>
+      <div class="key">
+        <span><i style="background:var(--up)"></i>Significant rise</span>
+        <span><i style="background:var(--down)"></i>Significant fall</span>
+        <span><i style="background:var(--up);opacity:.5"></i><i style="background:var(--down);opacity:.5"></i>Suggestive</span>
+        <span><i style="background:var(--flat);opacity:.35"></i>Not significant</span>
+        <span><i style="border:1px dashed var(--line)"></i>Not applicable</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Watch a demonstration</h2>
+    <div class="demos" id="demos"></div>
+  </section>
+  <div class="tour" id="tour" role="status"><p id="tour-text"></p><div class="btns"><button id="tour-next">Next step</button><button id="tour-close">Close</button></div></div>
+
+  <section class="panel">
+    <h2>Investigate any region with fresh NASA data</h2>
+    <p class="small muted" style="margin:0 0 10px">This page cannot call NASA servers itself. Build the request here, open it in a new tab, save the JSON, and drop the file below. Everything is computed in your browser.</p>
+    <div class="byod">
+      <label for="b-param">Variable<select id="b-param"></select></label>
+      <label for="b-lat0">Latitude min<input id="b-lat0" type="number" value="36" step="0.5"></label>
+      <label for="b-lat1">Latitude max<input id="b-lat1" type="number" value="40" step="0.5"></label>
+      <label for="b-lon0">Longitude min<input id="b-lon0" type="number" value="-112" step="0.5"></label>
+      <label for="b-lon1">Longitude max<input id="b-lon1" type="number" value="-108" step="0.5"></label>
+      <label for="b-y0">Start year<input id="b-y0" type="number" value="1981" min="1981" max="2025"></label>
+      <label for="b-y1">End year<input id="b-y1" type="number" value="2025" min="1981" max="2025"></label>
+    </div>
+    <div class="url" id="b-url"></div>
+    <p class="small" id="b-warn" style="color:var(--warn);margin:0 0 8px"></p>
+    <div class="row">
+      <a class="btn" id="b-open" target="_blank" rel="noopener">Open NASA POWER request</a>
+      <button class="btn ghost" id="b-copy">Copy request link</button>
+    </div>
+    <div class="drop" id="drop" style="margin-top:12px">
+      <label for="b-file">Drop the NASA POWER JSON file here, or <u>choose a file</u></label>
+      <input id="b-file" type="file" accept=".json,application/json" style="display:block;margin:8px auto 0">
+      <div class="small" id="b-msg" style="margin-top:6px"></div>
+    </div>
+  </section>
+
+  <section class="bottom">
+    <div class="panel">
+      <h2>Evidence graph</h2>
+      <p class="small muted" style="margin:0 0 6px">Sources (large) and trend findings (small): green verified, amber unverified, red contradicted.</p>
+      <svg class="graph" id="graph" viewBox="0 0 640 300" role="img" aria-label="Knowledge graph of sources and findings"></svg>
+      <p class="small" id="graph-eval"></p>
+    </div>
+    <div class="panel prose">
+      <h2>Method and limitations</h2>
+      <ul>
+        <li><b>Data.</b> NASA POWER monthly regional API (MERRA-2 reanalysis; CERES SYN1deg for sunlight and cloud), 1981–2025. Grid points are averaged with cos(latitude) area weights.</li>
+        <li><b>Seasonal cycle.</b> Each month's long-term mean over the selected years is subtracted, leaving anomalies.</li>
+        <li><b>Rate of change.</b> Ordinary least-squares slope of the anomalies. The t-test and 95% confidence interval use an effective sample size n<sub>eff</sub> = n(1−r₁)/(1+r₁) for lag-1 autocorrelation (Santer et al., 2000).</li>
+        <li><b>Non-parametric check.</b> Seasonal Mann-Kendall test (Hirsch et al., 1982) and seasonal Sen slope; plain Mann-Kendall on annual means.</li>
+        <li><b>Significant</b> means both tests give p &lt; 0.05. <b>Suggestive</b> means one does, or both give p &lt; 0.10.</li>
+        <li><b>Years to detect</b> follows Weatherhead et al. (1998) for 90% power at the 5% level.</li>
+        <li><b>Corroboration.</b> Temperature is checked against GISTEMP v4 (stations + ships); precipitation against GPCP v2.3 (satellites + gauges). Other variables are single-source and stay unverified.</li>
+      </ul>
+      <h3 style="margin-top:10px">Limitations</h3>
+      <ul>
+        <li>Reanalysis trends can shift when the satellites feeding the model change, and the model can miss processes such as irrigation.</li>
+        <li>MERRA-2's corrected precipitation is partly nudged toward observations, so GPCP agreement is not fully independent.</li>
+        <li>Linear trends only. Step changes, cycles such as El Niño and non-linear change are not modelled.</li>
+        <li>Testing 72 region–variable pairs at p &lt; 0.05 means a few "significant" results are expected by chance alone.</li>
+        <li>GPCP cells are 2.5°, so small regions (2°–4°) rest on 1–4 cells.</li>
+        <li>The data snapshot is fixed at the retrieval time shown at the top. Re-run the pipeline for newer months.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+<footer>
+  Data: NASA POWER Project, NASA Langley Research Center (power.larc.nasa.gov), with MERRA-2 (NASA GMAO) and CERES SYN1deg (NASA LaRC) · GISTEMP Team, 2026: GISS Surface Temperature Analysis v4, NASA GISS · Adler et al., GPCP Monthly v2.3, NASA GSFC / NOAA NCEI.
+  Statistics locally cross-checked against statsmodels; prior reference tests include pymannkendall; evidence graph parsed by OpenPlanter (MIT).<p><strong>AI-assisted software and presentation.</strong> The underlying NASA observations are not AI-generated. Source data, method, limits and AI assistance are documented in the project README and AI_DISCLOSURE.md. Raw NASA download bytes are not bundled in this offline page.</p>
+</footer>
+<script>/*DATA*/</script>
+<script>/*TREND*/</script>
+<script>/*APP*/</script>
+</body>
+</html>
